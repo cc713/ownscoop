@@ -8,7 +8,7 @@
     },
     "notes": "Currently it's not possible to make Plugins and Skins persistent",
     "url": "https://www.mediafire.com/file/aphesj7sioudc29/MusicBeePortable_3_4_Update2.zip/file#/dl.zip",
-    "hash": "B03721D71B6F082CDDD15D847B08C39C57D45F73F2B59A37B74F2C217CE05321",
+    "hash": "5fbf8152678e9afad030917812f0866a58ed3f4b09a77b01d4bc9333d5c9f62f",
     "pre_install": [
         "(Get-ChildItem \"$dir\" 'MusicBee*.exe').FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
