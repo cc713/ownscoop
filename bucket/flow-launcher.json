@@ -19,6 +19,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/FlowLauncher-$version-full.nupkg#/dl.7z"
-    }
+    },
   "notes": "Get the Flow.Launcher.Plugin.Everything."
 }
