@@ -1,0 +1,24 @@
+{
+  "version": "1.9.1",
+  "homepage": "https://www.flowlauncher.com/",
+  "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.9.1/FlowLauncher-1.9.1-full.nupkg#/dl.7z",
+  "hash": "FE6893FA72997A6DD92A7B67341D212C5694A6AAD5EC0FB66FF31FC3A47F1ADC",
+  "extract_dir": "lib\\net5.0-windows",
+  "bin": "Flow.Launcher.exe",
+  "shortcuts": [
+    [
+      "Flow.Launcher.exe",
+      "Flow Launcher"
+    ]
+  ],
+  "persist": [
+    "UserData"
+  ],
+    "checkver": {
+        "github": "https://github.com/Flow-Launcher/Flow.Launcher"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/FlowLauncher-$version-full.nupkg#/dl.7z"
+    }
+  "notes": "Get the Flow.Launcher.Plugin.Everything."
+}
