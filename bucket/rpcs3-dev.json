@@ -1,0 +1,59 @@
+{
+    "homepage": "https://rpcs3.net/",
+    "description": "Open-source Sony PlayStation 3 emulator (development version)",
+    "license": "GPL-2.0-only",
+    "version": "0.0.20-13177",
+    "url": "https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-d6aa834b5f305439d5e5d21cd7443d9bcc8cf86d/rpcs3-v0.0.20-13177-d6aa834b_win64.7z",
+    "hash": "3c8081bfaa87d64164ec6cad0920bdd887cc10dd34dc53411ee61503850b5867",
+    "bin": "rpcs3.exe",
+    "persist": [
+        "GuiConfigs",
+        "dev_hdd0",
+        "dev_flash",
+        "cache",
+        "config.yml",
+        "config",
+        "games.yml",
+        "Icons",
+        "patches"
+    ],
+    "shortcuts": [
+        [
+            "rpcs3.exe",
+            "RPCS3-dev"
+        ]
+    ],
+    "installer": {
+        "script": [
+            "if (!(Test-Path \"$persist_dir\\config.yml\")) {",
+            "    New-Item \"$dir\\config.yml\" -Type File | Out-Null",
+            "}",
+            "if (!(Test-Path \"$persist_dir\\games.yml\")) {",
+            "    New-Item \"$dir\\games.yml\" -Type File | Out-Null",
+            "}"
+        ]
+    },
+    "checkver": {
+        "url": "https://rpcs3.net/compatibility?b",
+        "regex": "/rpcs3-binaries-win/releases/download/build-(?<fullhash>[0-9a-f]+)/rpcs3-v(?<build>[0-9]+\\.[0-9]+\\.[0-9]+\\-[0-9]+)-(?<shorthash>[0-9a-f]{8})",
+        "replace": "${build}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-$matchFullhash/rpcs3-v$matchBuild-$matchShorthash_win64.7z",
+        "hash": {
+            "url": "https://rpcs3.net/compatibility?b",
+            "regex": "Windows SHA-256: ($sha256)"
+        }
+    },
+    "suggest": {
+        "PS3 System Software": "games/ps3-system-software",
+        "vcredist2019": "extras/vcredist2019"
+    },
+    "notes": [
+        "ATTENTION: RPCS3 requires a copy of the official PS3 firmware to function.",
+        "It is available here: https://www.playstation.com/en-us/support/system-updates/ps3",
+        "See the official quickstart guide for further instructions: https://rpcs3.net/quickstart",
+        "NEW: Alternatively, install the ps3-system-software package.  You must still manually load PS3UPDAT.PUP",
+        "Suggested apps could be safely uninstalled/ignored if have been installed."
+    ]
+}
