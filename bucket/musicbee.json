@@ -1,0 +1,34 @@
+{
+    "version": "3.4.8033",
+    "description": "The ultimate music player to easily manage, find, and play music, podcasts, web radio stations, etc",
+    "homepage": "https://getmusicbee.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://musicbee.fandom.com/wiki/FAQ#Are_there_any_limitations_on_using_MusicBee.3F"
+    },
+    "notes": "Currently it's not possible to make Plugins and Skins persistent",
+    "url": "https://www.mediafire.com/file/aphesj7sioudc29/MusicBeePortable_3_4_Update2.zip/file#/dl.zip",
+    "hash": "B03721D71B6F082CDDD15D847B08C39C57D45F73F2B59A37B74F2C217CE05321",
+    "pre_install": [
+        "(Get-ChildItem \"$dir\" 'MusicBee*.exe').FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+    ],
+    "bin": "MusicBee.exe",
+    "shortcuts": [
+        [
+            "MusicBee.exe",
+            "MusicBee"
+        ]
+    ],
+    "persist": [
+        "Library",
+        "AppData"
+    ],
+    "checkver": {
+        "url": "https://getmusicbee.com/downloads/",
+        "regex": "(?sm)MusicBee\\s*([\\d.]+)<.*https://www\\.mediafire\\.com/file/(?<random>[^/]+)/MusicBeePortable_(?<majorminor>[^.]+)\\."
+    },
+    "autoupdate": {
+        "url": "https://www.mediafire.com/file/$matchRandom/MusicBeePortable_$matchMajorminor.zip/file#/dl.zip"
+    }
+}
