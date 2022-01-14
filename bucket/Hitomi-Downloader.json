@@ -4,7 +4,7 @@
     "license": "Freeware",
     "version": "3.7h",
     "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v3.7h/hitomi_downloader_GUI.zip",
-    "hash": "eaca1669563a52b4311cec229e9c470b34984c0bd4491d755e6ccb09009fa859",
+    "hash": "dab6b459a71bbe33770d333521a2af52116cbb900dc7a4b4ccd030096d03fc8d",
     "pre_install": "if (!(Test-Path \"$persist_dir\\hitomi_downloader_GUI.ini\")) { New-Item \"$dir\\hitomi_downloader_GUI.ini\" | Out-Null }",
     "bin": "hitomi_downloader_GUI.exe",
     "persist": "hitomi_downloader_GUI.ini",
