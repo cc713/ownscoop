@@ -13,8 +13,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://ystr.github.io/types/",
-        "regex": "DOWNLOAD ([\\d.]+)"
+        "url": "https://ystr.github.io/types",
+        "regex": "Download ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://ystr.github.io/types/Types.zip"
