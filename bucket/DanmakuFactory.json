@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/hihkm/DanmakuFactory",
+    "description": "支持特殊弹幕的xml转ass格式转换工具",
+    "license": "Open Source",
+    "version": "1.6",
+    "url": "https://github.com/hihkm/DanmakuFactory/releases/download/v1.6/DanmakuFactory1.62_Release_GUI.zip",
+    "hash": "A8F2E3F8488F361FCFC539B887B6238E1F1314FA2E1B857DE1138B1A63E99FAD",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\DanmakuFactoryGUIConfig.txt\")) { New-Item \"$dir\\DanmakuFactoryGUIConfig.txt\" | Out-Null }",
+    "bin": "DanmakuFactory.exe",
+    "persist": "DanmakuFactoryGUIConfig.txt",
+    "post_install": "Remove-Item \"$dir\\点击DanmakuFactory.exe运行\"",
+    "shortcuts": [
+        [
+            "DanmakuFactory.exe",
+            "DanmakuFactory"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/hihkm/DanmakuFactory/releases/download/v$version/DanmakuFactory1.62_Release_GUI.zip"
+    }
+}
