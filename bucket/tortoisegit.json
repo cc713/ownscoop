@@ -1,0 +1,75 @@
+{
+    "version": "2.12.0.0",
+    "description": "Windows Shell Interface to Git based on TortoiseSVN.",
+    "homepage": "https://tortoisegit.org/",
+    "license": {
+        "identifier": "GPL-2.0-only"
+    },
+    "notes": [
+        "To add TortoiseGit as a context menu option, run '$dir\\tortoisegit-install.reg'",
+        "For file associations, run '$dir\\tortoisegit-install-tools.reg'",
+        "Before uninstalling TortoiseGit, run '$dir\\tortoisegit-uninstall.reg' "
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://download.tortoisegit.org/tgit/2.12.0.0/TortoiseGit-2.12.0.0-64bit.msi",
+            "hash": "eb5d8a986e74e9af582138617048fa7a7876eaf833999f7b271dd4c919ca0fee"
+        },
+        "32bit": {
+            "url": "https://download.tortoisegit.org/tgit/2.12.0.0/TortoiseGit-2.12.0.0-32bit.msi",
+            "hash": "2cddbe4b3792a3cd0b15e91298cc2de46ec1c859485934117ca41c3d6728e3a3"
+        }
+    },
+    "extract_dir": "Program Files\\TortoiseGit",
+    "post_install": [
+        "$path = 'HKCU:\\Software\\TortoiseGit'",
+        "if (!(Test-path \"$path\")) {",
+        "    New-Item $path | Out-Null",
+        "    New-ItemProperty -Path $path -Name 'VersionCheck' -PropertyType DWord -Value 0 -Force | Out-Null",
+        "    New-ItemProperty -Path $path -Name 'MsysGit' -PropertyType String -Value \"$env:GIT_INSTALL_ROOT\\bin\" -Force | Out-Null",
+        "}",
+        "$null, $bucket = find_manifest $app 'cvp'",
+        "$bucketdir = Find-BucketDirectory($bucket)",
+        "$escdir = $dir -replace \"\\\\\",\"\\\\\"",
+        "(gc \"$bucketdir\\..\\scripts\\tortoisegit\\tortoisegit-install.reg.templ\") | % {$_ -replace \"%TGITHOME%\",\"$escdir\"} | out-file -enc oem \"$dir\\tortoisegit-install.reg\"",
+        "(gc \"$bucketdir\\..\\scripts\\tortoisegit\\tortoisegit-install-tools.reg.templ\") | % {$_ -replace \"%TGITHOME%\",\"$escdir\"} | out-file -enc oem \"$dir\\tortoisegit-install-tools.reg\"",
+        "cp \"$bucketdir\\..\\scripts\\tortoisegit\\tortoisegit-uninstall.reg\" \"$dir\""
+    ],
+    "bin": [
+        "bin\\TortoiseGitUDiff.exe",
+        "bin\\TortoisePlink.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\TortoiseGitMerge.exe",
+            "TortoiseGit Merge"
+        ],
+        [
+            "bin\\TortoiseGitBlame.exe",
+            "TortoiseGit Blame"
+        ],
+        [
+            "bin\\TortoiseGitIDiff.exe",
+            "TortoiseGit Diff"
+        ],
+        [
+            "bin\\TortoiseGitProc.exe",
+            "TortoiseGit Settings",
+            "/command:settings"
+        ]
+    ],
+    "checkver": {
+        "url": "https://download.tortoisegit.org/tgit/",
+        "regex": "TortoiseGit is: <a href=/tgit/([\\d\\.]+)/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.tortoisegit.org/tgit/$version/TortoiseGit-$version-64bit.msi"
+            },
+            "32bit": {
+                "url": "https://download.tortoisegit.org/tgit/$version/TortoiseGit-$version-32bit.msi"
+            }
+        }
+    }
+}
