@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/miurahr/aqtinstall",
+    "license": "MIT",
+    "version": "2.0.5",
+    "description": "aqt: Another (unofficial) Qt CLI Installer on multi-platforms",
+    "url": "https://github.com/miurahr/aqtinstall/releases/download/v2.0.5/aqt.exe",
+    "hash": "5f618c6f7938523a75299226d34e02b17874859185c117e36895835f68590822",
+    "bin": "aqt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/miurahr/aqtinstall/releases/download/v$version/aqt.exe"
+    }
+}
