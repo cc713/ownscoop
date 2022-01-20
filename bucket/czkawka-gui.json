@@ -5,10 +5,10 @@
     "license": "MIT, CC-BY-SA-4.0",
     "url": "https://github.com/qarmin/czkawka/releases/download/4.0.0/windows_czkawka_gui.zip",
     "hash": "85f3023741449d357ee8ed1f7ce5248a1dcc4b5c039993a9ec5c04996f9ee415",
-    "bin": "windows_czkawka_gui.exe",
+    "bin": "czkawka_gui.exe",
     "shortcuts": [
         [
-            "windows_czkawka_gui.exe",
+            "czkawka_gui.exe",
             "czkawka gui"
         ]
     ],
