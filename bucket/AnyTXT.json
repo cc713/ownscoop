@@ -5,22 +5,16 @@
     "license": "GPL-3.0-or-later",
     "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.540.exe",
     "hash": "sha1:f095be4f5b1deef43a53e0a2bdf0218904dff4be",
-    "installer": {
-        "args": [
-            "/verysilent",
-            "/dir=\"$dir\"",
-            "/tasks=\"fileassoc\""
-        ]
-    },
-    "uninstaller": {
-        "file": "unins000.exe",
-        "args": [
-            "/VERYSILENT",
-            "/CLOSEAPPLICATIONS",
-            "/FORCECLOSEAPPLICATIONS"
-        ]
-    },
+    "innosetup": true,
+    "pre_install": "if (!(Test-Path \"$persist_dir\\config.db\")) { New-Item \"$dir\\config.db\" | Out-Null }",
     "bin": "ATGUI.exe",
+    "shortcuts": [
+        [
+            "ATGUI.exe",
+            "AnyTXT"
+        ]
+    ],
+    "persist": "config.db",
     "checkver": {
         "url": "https://anytxt.net/download/",
         "regex": "AnyTXT.Searcher.([\\d.]+).exe"
