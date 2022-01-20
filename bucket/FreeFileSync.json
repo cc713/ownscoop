@@ -8,6 +8,7 @@
     },
     "url": "https://freefilesync.org/download/FreeFileSync_11.16_Windows_Setup.exe",
     "hash": "9c54ec7c7192519b1851988f27a25464c807ea49ffd59b6ec183ef502631c54e",
+    "notes": "Need interaction."
     "installer": {},
     "uninstaller": {
         "file": "Uninstall\\unins000.exe",
