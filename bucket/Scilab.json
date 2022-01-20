@@ -12,7 +12,7 @@
             "hash": "43336cda96251d3dde9106fc5f1302ae722ab83e8a6bf894dff3238ea02be779"
         }
     },
-    "notes": "Need interaction."
+    "notes": "Need interaction.",
     "installer" : {
         "args" : [
             "/DIR=$dir"
