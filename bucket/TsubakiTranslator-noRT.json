@@ -1,0 +1,36 @@
+{
+    "version": "1.0.3",
+    "homepage": "https://github.com/Isayama-Kagura/TsubakiTranslator",
+    "description": "一款Galgame文本提取和翻译的工具",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Isayama-Kagura/TsubakiTranslator/releases/download/v1.0.3/TsubakiTranslator_noRT.rar",
+            "hash": "c788b4f1b46b9917aedc9f8d4217fa027f8b9ee5b49e89feb2b52e2cf72f4f1a",
+            "extract_dir": "TsubakiTranslator_noRT"
+        }
+    },
+    "bin": "TsubakiTranslator.exe",
+    "shortcuts": [
+        [
+            "TsubakiTranslator.exe",
+            "TsubakiTranslator"
+        ]
+    ],
+    "persist": "config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Isayama-Kagura/TsubakiTranslator/releases/download/v$version/TsubakiTranslator_noRT.rar"
+            }
+        }
+    },
+    "suggest": {
+        ".Net6": "main/dotnet-sdk"
+    },
+    "notes": [
+        "This version need .Net 6 framework to work.",
+        "You can also use TsubakiTranslator in the same bucket that doesn't need it."
+    ]
+}
