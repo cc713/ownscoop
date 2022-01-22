@@ -1,10 +1,10 @@
 {
-    "version": "2.9.2",
+    "version": "2.10",
     "description": "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具",
     "homepage": "https://github.com/hanmin0822/misakatranslator",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/2.9.2/MisakaTranslator.2.9.2.zip",
-    "hash": "47733a61ac9dd69d9c98cd72a3fa197d1eee7ee4e789cb9a5c43a60c2faf7097",
+    "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/2.10/MisakaTranslator.2.10.zip",
+    "hash": "4180971ef70623da38d73f8c7e7e0b7130ed54a1f351dc8ee1151d42d8804d50",
     "bin": "Release\\MisakaTranslator-WPF.exe",
     "pre_install": "if (!(Test-Path \"$persist_dir\\MisakaGameLibrary.sqlite\")) { New-Item \"$dir\\Release\\MisakaGameLibrary.sqlite\" | Out-Null }",
     "shortcuts": [
