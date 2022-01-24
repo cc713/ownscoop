@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/kanasimi/work_crawler",
+    "license": "Unknown",
+    "description": "Download comics and novels 小说漫画下载工具",
+    "version": "2.13.0",
+    "url": "https://github.com/kanasimi/work_crawler/releases/download/v2.13.0/work_crawler-Setup-2.13.0.exe#/dl.7z",
+    "hash": "bce4558bbcf695ae30e4f24f3eddc2c14440ab176d453e642581ec83159556bd",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+            ]
+        }
+    },
+    "bin": "work_crawler.exe",
+    "shortcuts":[
+        [
+            "work_crawler.exe",
+            "work crawler"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/kanasimi/work_crawler/releases/download/v$version/work_crawler-Setup-$version.exe#/dl.7z"
+    }
+}
