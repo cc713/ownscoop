@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/git-cola/git-cola",
+    "homepage": "https://git-cola.github.io/",
     "license": "GPL-2.0-only",
     "description": "The highly caffeinated Git GUI.",
     "version": "3.12.0",
@@ -21,7 +21,9 @@
             "git-dag"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/git-cola/git-cola"
+    },
     "autoupdate": {
         "url": "https://github.com/git-cola/git-cola/releases/download/v$version/git-cola-$version.windows.zip"
     }
