@@ -1,0 +1,21 @@
+{
+    "version": "5600",
+    "description": "基于 mpv.net 的中文分支模组",
+    "homepage": "https://github.com/hooke007/mpv.net_CM",
+    "license": "MIT",
+    "url": "https://github.com/hooke007/mpv.net_CM/releases/download/5600/mpvnet_CM_5600_portable_x64.7z",
+    "hash": "54de6c44d6ec4b0558f50f3141d2c91a54b275684fecb84d272321063b4f5ce4",
+    "extract_dir": "mpvnet",
+    "bin": "mpvnet.exe",
+    "shortcuts": [
+        [
+            "mpvnet.exe",
+            "mpv.net-CM"
+        ]
+    ],
+    "persist": "portable_config",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/hooke007/mpv.net_CM/releases/download/$version/mpvnet_CM_$version_portable_x64.7z"
+    }
+}
