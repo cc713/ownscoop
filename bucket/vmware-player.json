@@ -1,0 +1,33 @@
+{
+    "version": "16.2.2-19200509",
+    "description": "Virtualization software",
+    "homepage": "https://www.vmware.com/en/products/workstation-player.html",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.vmware.com/download/eula/universal_eula.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download3.vmware.com/software/player/file/VMware-player-full-16.2.2-19200509.exe#/setup.exe",
+            "hash": "e309c9909f9b8b366153f282b1ea2c39d6ebafa0fea84079c1fac1b81cb5cbff"
+        }
+    },
+    "installer": {
+        "script": "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList @('/s', \"/v/qn EULAS_AGREED=1\") -RunAs | Out-Null"
+    },
+    "uninstaller": {
+        "script": "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList @('/s', \"/v/qn REMOVE=ALL\") -RunAs | Out-Null"
+    },
+    "checkver": {
+        "url": "https://softwareupdate.vmware.com/cds/vmw-desktop/ws-windows.xml",
+        "regex": "<url>ws/16\\.([\\d.]+)/(\\d+)/",
+        "replace": "16.${1}-${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download3.vmware.com/software/player/file/VMware-player-full-$version.exe#/setup.exe"
+            }
+        }
+    }
+}
