@@ -16,8 +16,8 @@
     ],
     "persist": "config.db",
     "checkver": {
-        "url": "https://anytxt.net/download/",
-        "regex": "AnyTXT.Searcher.([\\d.]+).exe"
+        "url": "https://sourceforge.net/projects/anytxt/files/",
+        "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.$version.exe"

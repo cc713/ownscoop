@@ -19,8 +19,7 @@
         ]
     },
     "checkver": {
-        "url": "https://freefilesync.org/download.php",
-        "regex": "FreeFileSync\\s+([\\d.]+)\\s+Windows"
+        "github": "https://github.com/hkneptune/FreeFileSync"
     },
     "autoupdate": {
         "url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"
