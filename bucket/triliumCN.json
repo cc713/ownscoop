@@ -23,7 +23,7 @@
     "persist": "trilium-data",
     "checkver": {
         "url": "https://github.com/Nriver/trilium-translation/tags",
-        "regex": "/v([\\d._]+)"
+        "regex": "tag/v(.+)\""
     },
     "autoupdate": {
         "architecture": {
