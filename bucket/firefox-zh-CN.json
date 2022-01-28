@@ -1,0 +1,59 @@
+{
+    "version": "96.0.3",
+    "description": "Popular open source web browser.",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/96.0.3/win64/zh-CN/Firefox%20Setup%2096.0.3.exe#/dl.7z",
+            "hash": "sha512:1e8c1bb4e6b07fb08f8fe8a8116951aa9d79a97bf7070dc0f7af7ee789442f57b4d9b7c69b65b17983816b6cdea69753f4d6404e79df7ef70110d2f3c858e8c5"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/96.0.3/win32/zh-CN/Firefox%20Setup%2096.0.3.exe#/dl.7z",
+            "hash": "sha512:bd74197da5cf8a59f58f8c848197a43f349796077e53a9a4a0a4f66bb3fa43d7cebb8cd7a43a99f7f299a611716ae31b815a0d2e6805dd11b58b708b56064127"
+        },
+        "arm64": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/96.0.3/win64-aarch64/zh-CN/Firefox%20Setup%2096.0.3.exe#/dl.7z",
+            "hash": "sha512:01506fb4df98cdea0745ed3e82e8ba683f70e1c0186ed27fc8da61be9aca6b0eec1c872a0c867b95ec0f2b19b2151a4ad249aa34cf79b69a1d2e82ab460ea041"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox"
+        ]
+    ],
+    "persist": "distribution",
+    "checkver": {
+        "url": "https://archive.mozilla.org/pub/firefox/candidates/",
+        "regex": "pub/firefox/candidates/([\\d.]+)-candidates",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/zh-CN/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/zh-CN/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win32/zh-CN/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/zh-CN/$basename"
+                }
+            },
+            "arm64": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64-aarch64/zh-CN/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64-aarch64/zh-CN/$basename"
+                }
+            }
+        }
+    }
+}
