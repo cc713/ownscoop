@@ -1,6 +1,7 @@
 {
     "homepage": "https://docs.python.org/",
     "version": "3.10.2",
+    "description": "python 中文文档",
     "url": "https://docs.python.org/zh-cn/3/archives/python-3.10.2-docs-html.zip",
     "hash": "d02fc932ed9604a4268175062a68e18bcfdebecb61807f7695f289f1715a3e5a",
     "extract_dir": "python-3.10.2-docs-html",
