@@ -1,7 +1,7 @@
 {
-    "homepage": "https://www.scilab.org/",
     "version": "6.1.1",
     "description": "A free and open-source, cross-platform numerical computational package and a high-level, numerically oriented programming language.",
+    "homepage": "https://www.scilab.org/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {

@@ -1,7 +1,7 @@
 {
-    "homepage": "https://github.com/kanishka-linux/kawaii-player",
     "version": "5.0.0-1",
     "description": "Audio/Video manager and mutlimedia player (based on mpv and mplayer) with PC-To-PC casting feature, along with functionalities of portable media server and torrent streaming server.",
+    "homepage": "https://github.com/kanishka-linux/kawaii-player",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {

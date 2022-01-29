@@ -1,8 +1,8 @@
 {
-    "homepage": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter",
-    "description": "You can decrypt whole RPG-Maker MV Directories with this Program, it also has a GUI.",
-    "license": "MIT",
     "version": "0.4.1-alpha",
+    "description": "You can decrypt whole RPG-Maker MV Directories with this Program, it also has a GUI.",
+    "homepage": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter",
+    "license": "MIT",
     "url": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter/releases/download/v.0.4.1-alpha/RPG_Maker_MV_Decrypter_jar_0.4.1.zip",
     "hash": "3a8c01f9d8513889b0b1ba865e70d9f31f632766e97069aeb2361ec08558e9b6",
     "shortcuts":[

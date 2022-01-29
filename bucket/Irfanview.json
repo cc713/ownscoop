@@ -1,11 +1,11 @@
 {
     "version": "4.59",
     "description": "A fast, compact and innovative graphic viewer",
+    "homepage": "https://www.irfanview.com",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.irfanview.com/eula.htm"
     },
-    "homepage": "https://www.irfanview.com",
     "architecture": {
         "64bit": {
             "url": "https://www.irfanview.info/files/iview459_x64.zip",

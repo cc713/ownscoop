@@ -1,8 +1,8 @@
 {
-    "homepage": "https://www.aaru.app",
-    "description": "Aaru is a fully featured media dump management solution. ",
-    "license": "GPL-3.0-only",
     "version": "5.3.0",
+    "description": "Aaru is a fully featured media dump management solution. ",
+    "homepage": "https://www.aaru.app",
+    "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/aaru-dps/Aaru/releases/download/v5.3.0/aaru-5.3.0_windows_x64.zip",

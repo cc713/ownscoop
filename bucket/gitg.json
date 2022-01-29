@@ -1,7 +1,7 @@
 {
-    "homepgae": "https://wiki.gnome.org/Apps/Gitg",
-    "description": "Gitg is the GNOME GUI client to view git repositories.",
     "version": "41",
+    "description": "Gitg is the GNOME GUI client to view git repositories.",
+    "homepgae": "https://wiki.gnome.org/Apps/Gitg",
     "license": "GPL-2.0-only",
     "url": "https://download.gnome.org/binaries/win64/gitg/41/gitg-x86_64-41.0.msi",
     "hash": "e8bf311c3b7670546050f5d6906ab0ab21fd5c27b593a93e8d4848955ab3f7c9",

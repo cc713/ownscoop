@@ -1,7 +1,7 @@
 {
-    "homepage": "https://www.smplayer.info/",
     "version": "21.10.0",
     "description": "Free media player for Windows and Linux with built-in codecs that can also play YouTube videos.",
+    "homepage": "https://www.smplayer.info/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {

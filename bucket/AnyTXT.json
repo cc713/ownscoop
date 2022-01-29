@@ -1,7 +1,7 @@
 {
-    "homepage": "https://anytxt.net/",
-    "description": "A local document search application",
     "version": "1.2.540",
+    "description": "A local document search application",
+    "homepage": "https://anytxt.net/",
     "license": "GPL-3.0-or-later",
     "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.540.exe",
     "hash": "sha1:f095be4f5b1deef43a53e0a2bdf0218904dff4be",

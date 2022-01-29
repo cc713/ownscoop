@@ -1,7 +1,7 @@
 {
-    "homepage": "https://github.com/ender-zhao/Clash-for-Windows_Chinese",
-    "description": "clash for windows汉化版. 提供clash for windows的汉化版, 汉化补丁及汉化版安装程序",
     "version": "0.19.7",
+    "description": "clash for windows汉化版. 提供clash for windows的汉化版, 汉化补丁及汉化版安装程序",
+    "homepage": "https://github.com/ender-zhao/Clash-for-Windows_Chinese",
     "license": "Freeware",
     "architecture": {
         "64bit": {

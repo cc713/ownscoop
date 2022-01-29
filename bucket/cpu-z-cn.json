@@ -1,7 +1,7 @@
 {
-    "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
-    "description": "System information software.",
     "version": "1.99",
+    "description": "System information software.",
+    "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
     "license": "Unknown",
     "url": "http://download.cpuid.com/cpu-z/cpu-z_1.99-cn.zip",
     "hash": "d91423844511e3d279e2c5a187939cab58cf25ef86116836ea0cacbaf2512749",

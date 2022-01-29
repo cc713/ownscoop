@@ -1,8 +1,8 @@
 {
+    "version": "2.13.0",
+    "description": "Download comics and novels 小说漫画下载工具",
     "homepage": "https://github.com/kanasimi/work_crawler",
     "license": "Unknown",
-    "description": "Download comics and novels 小说漫画下载工具",
-    "version": "2.13.0",
     "url": "https://github.com/kanasimi/work_crawler/releases/download/v2.13.0/work_crawler-Setup-2.13.0.exe#/dl.7z",
     "hash": "bce4558bbcf695ae30e4f24f3eddc2c14440ab176d453e642581ec83159556bd",
     "architecture": {

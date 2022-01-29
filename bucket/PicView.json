@@ -1,7 +1,7 @@
 {
     "version": "1.6.6",
-    "homepage": "https://picview.org",
     "description": "Fast Picture Viewer with compact UI that can be hidden. Features image effects, galleries, EXIF and more. The application can automatically adjusts itself to your screen. ",
+    "homepage": "https://picview.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
