@@ -15,13 +15,13 @@
     },
     "bin": [
         [
-            "Mark Text.exe",
+            "MarkText.exe",
             "marktext"
         ]
     ],
     "shortcuts": [
         [
-            "Mark Text.exe",
+            "MarkText.exe",
             "MarkText"
         ]
     ],
