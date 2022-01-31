@@ -21,7 +21,9 @@
             "Arctime Pro"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "http://github.com/acely/Arctime-Pro"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
