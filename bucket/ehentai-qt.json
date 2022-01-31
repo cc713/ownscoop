@@ -1,0 +1,29 @@
+{
+    "version": "1.0.5",
+    "description": "e-hentai, exhentai，看图，搜索，下载器",
+    "homepage": "https://github.com/tonquer/ehentai-qt",
+    "license": "LGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tonquer/ehentai-qt/releases/download/v1.0.5/ehentai_v1.0.5_windows_x64.7z",
+            "hash": "a508225fa34309dab436dfee57bbe1911f871ab00e9491a66e10eda3021bf817"
+        }
+    },
+    "extract_dir": "ehentai_v1.0.5_windows_x64\\ehentai",
+    "shortcuts": [
+        [
+            "start.exe",
+            "ehentai-qt"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\ehentai_v*_windows_x64\" -Force -Recurse",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tonquer/ehentai-qt/releases/download/v$version/ehentai_v$version_windows_x64.7z"
+            }
+        },
+        "extract_dir": "ehentai_v$version_windows_x64\\ehentai"
+    }
+}

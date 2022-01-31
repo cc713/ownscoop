@@ -1,0 +1,29 @@
+{
+    "version": "1.3.5",
+    "description": "哔咔漫画, PicACG comic PC client",
+    "homepage": "https://github.com/tonquer/picacg-qt",
+    "license": "LGPLv3",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tonquer/picacg-qt/releases/download/v1.3.5/bika_v1.3.5_windows_x64.7z",
+            "hash": "b1ff7a5af9af4bdc7fc1bbcb73c4b41f3dcd8b45d63481721a1b5ee4251c5be9",
+            "extract_dir": "bika_v1.3.5_windows_x64\\bika"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\bika_*_windows_x64\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "start.exe",
+            "PicACG"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tonquer/picacg-qt/releases/download/v$version/bika_v$version_windows_x64.7z",
+                "extract_dir": "bika_v$version_windows_x64\\bika"
+            }
+        }
+    }
+}

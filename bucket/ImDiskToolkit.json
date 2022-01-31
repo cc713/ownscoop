@@ -16,6 +16,7 @@
     "extract_dir": "ImDiskTk20211103",
     "installer": {
         "file": "install.bat",
+        "args": "/installfolder:\"$dir\"",
         "keep": true
     },
     "checkver": {
