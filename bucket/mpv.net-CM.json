@@ -6,7 +6,12 @@
     "url": "https://github.com/hooke007/mpv.net_CM/releases/download/5600/mpvnet_CM_5600_portable_x64.7z",
     "hash": "54de6c44d6ec4b0558f50f3141d2c91a54b275684fecb84d272321063b4f5ce4",
     "extract_dir": "mpvnet",
-    "bin": "mpvnet.exe",
+    "bin": [
+        [
+            "mpvnet.exe",
+            "mpvnetCM"
+        ]
+    ],
     "shortcuts": [
         [
             "mpvnet.exe",
