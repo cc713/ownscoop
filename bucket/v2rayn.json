@@ -6,23 +6,12 @@
     "url": "https://github.com/2dust/v2rayN/releases/download/4.32/v2rayN-Core.zip",
     "hash": "0fa9c9e599da296babb88505573bcc27bb1912b98413cce2ec636d5445f64657",
     "extract_dir": "v2rayN-Core",
-    "pre_install": [
-        "foreach ($name in @('guiNConfig.json', 'user-wininet.json')) {",
-        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
-        "        New-Item -Force -Path \"$dir\" -Name $name | Out-Null",
-        "    }",
-        "}"
-    ],
     "bin": "v2rayN.exe",
     "shortcuts": [
         [
             "v2rayN.exe",
             "v2rayN"
         ]
-    ],
-    "persist": [
-        "config.json",
-        "guiNConfig.json"
     ],
     "checkver": "github",
     "autoupdate": {
