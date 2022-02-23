@@ -1,16 +1,16 @@
 {
-    "version": "0.17.0-rc.1",
+    "version": "0.17.0",
     "description": "A simple and elegant markdown editor",
     "homepage": "https://marktext.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/marktext/marktext/releases/download/v0.17.0-rc.1/marktext-x64-win.zip",
-            "hash": "cae8135e32b882905767bbb7409938a18b48d9786005f7305a6e0ce1e87b5a60"
+            "url": "https://github.com/marktext/marktext/releases/download/v0.17.0/marktext-x64-win.zip",
+            "hash": "e16d06c018f1337974aa77cd0811fa3e9da51c6ea03089c67fde696ab0f8eda5"
         },
         "32bit": {
-            "url": "https://github.com/marktext/marktext/releases/download/v0.17.0-rc.1/marktext-ia32-win.zip",
-            "hash": "9eb4fbcbd7a53c1cb783f1f551370f3ff54b156e4fe9e8e10b445fb2397f49e8"
+            "url": "https://github.com/marktext/marktext/releases/download/v0.17.0/marktext-ia32-win.zip",
+            "hash": "1a3b7118eeaf0b316731f5431906fd50b6cd385465298a80f0c08e829d64f86a"
         }
     },
     "bin": [
