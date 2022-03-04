@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V0.19.11_CN/Clash.for.Windows-0.19.11-win.7z",
+<<<<<<< HEAD
             "hash": "1bc2384b213ba4aec14f373a606cc0453864310fd8d3165ade689c8b87cd37e8"
+=======
+            "hash": "523c60f83f58240c5dd0a3d23c5fbf01dc4b4aa06645cd30180ac81417b4962a"
+>>>>>>> ed3162ffc5643c1c6eec45069dd900913d921cdf
         }
     },
     "installer": {
