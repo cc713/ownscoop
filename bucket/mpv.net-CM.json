@@ -1,10 +1,10 @@
 {
-    "version": "5600",
+    "version": "5700",
     "description": "基于 mpv.net 的中文分支模组",
     "homepage": "https://github.com/hooke007/mpv.net_CM",
     "license": "MIT",
-    "url": "https://github.com/hooke007/mpv.net_CM/releases/download/5600/mpvnet_CM_5600_portable_x64.7z",
-    "hash": "54de6c44d6ec4b0558f50f3141d2c91a54b275684fecb84d272321063b4f5ce4",
+    "url": "https://github.com/hooke007/mpv.net_CM/releases/download/5700/mpvnet-CM-20220310.7z",
+    "hash": "08fc5bef0af67637893c544df158ac418c8eb76941b8cb68605155e0a5f36f76",
     "extract_dir": "mpvnet",
     "bin": [
         [
@@ -19,8 +19,11 @@
         ]
     ],
     "persist": "portable_config",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/hooke007/mpv.net_CM/releases",
+        "regex": "releases/download/(.+?)/(.+?)\\.7z"
+    },
     "autoupdate": {
-        "url": "https://github.com/hooke007/mpv.net_CM/releases/download/$version/mpvnet_CM_$version_portable_x64.7z"
+        "url": "https://github.com/hooke007/mpv.net_CM/releases/download/$match1/$match2.7z"
     }
 }
