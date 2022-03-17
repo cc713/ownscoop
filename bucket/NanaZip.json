@@ -1,10 +1,10 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "description": "The 7-Zip derivative intended for the modern Windows experience.",
     "homepage": "https://github.com/M2Team/NanaZip",
     "license": "MIT",
-    "url": "https://github.com/M2Team/NanaZip/releases/download/1.0/40174MouriNaruto.NanaZip_1.0.95.0_gnj4mf6z9tkrc.msixbundle#/dl.7z",
-    "hash": "5b0fd068a514e1d5b296965d7e825927efd3ee9888825a68663d9bcf0851bb05",
+    "url": "https://github.com/M2Team/NanaZip/releases/download/1.1/40174MouriNaruto.NanaZip_1.1.194.0_gnj4mf6z9tkrc.msixbundle#/dl.7z",
+    "hash": "5c9893da6e2f83323a51a9cbccaa465cea97a5b994f47c52e27376050ff4c05c",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\NanaZipPackage_*_x64.msix\" \"$dir\""
