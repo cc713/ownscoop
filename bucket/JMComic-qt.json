@@ -1,15 +1,15 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "禁漫天堂，18comic，使用qt实现的PC客户端，支持Windows，Linux，MacOS",
     "homepage": "https://github.com/tonquer/JMComic-qt",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tonquer/JMComic-qt/releases/download/v1.0.3/jmcomic_v1.0.3_windows_x64.zip",
-            "hash": "f5b809071de9e349f9eb6f85de3f83d6047561b37e9dd4a027f3e5d30c5e72a7"
+            "url": "https://github.com/tonquer/JMComic-qt/releases/download/v1.0.4/jmcomic_v1.0.4_windows_x64.zip",
+            "hash": "84eb68fd9dbaa5280bb905592f7b6325891bd4b8dbc6ab17b10fee37cf2ea094"
         }
     },
-    "extract_dir": "jmcomic_v1.0.3_windows_x64\\jmcomic",
+    "extract_dir": "jmcomic_v1.0.4_windows_x64\\jmcomic",
     "shortcuts": [
         [
             "start.exe",
