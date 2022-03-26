@@ -1,10 +1,10 @@
 {
-    "version": "2.8.0",
+    "version": "2.8.1",
     "description": "Manga reader and library manager for the desktop",
     "homepage": "https://houdoku.org/",
     "license": "MIT",
-    "url": "https://github.com/xgi/houdoku/releases/download/v2.8.0/Houdoku-Setup-2.8.0.exe#/dl.7z",
-    "hash": "sha512:29867078b9a26ab408f792d6adcdc8a45a3bf4539b77adec6fce0fd9f0eb4226c05caad2d00b23a4d2215d3f0fd695a9e24d0dde353f9109b7ec8cc0111e1b17",
+    "url": "https://github.com/xgi/houdoku/releases/download/v2.8.1/Houdoku-Setup-2.8.1.exe#/dl.7z",
+    "hash": "sha512:06e359cd350bd1c5a85dc2f099dd3036e9a6f09a967365595b1473a43bd6ade5dfac1c233b256c937f85577018d366ea11834390c9ffd928c38c0cbe40111d4b",
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse -Force",
     "shortcuts": [
