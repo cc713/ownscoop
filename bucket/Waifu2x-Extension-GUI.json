@@ -1,12 +1,12 @@
 {
-    "version": "3.88.01",
+    "version": "3.89.01",
     "description": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x, Real-ESRGAN, SRMD, RealSR, Anime4K, RIFE, CAIN, DAIN, and ACNet.",
     "homepage": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v3.88.01/Waifu2x-Extension-GUI-v3.88.01-Win64.7z",
-            "hash": "01f186628f4b73a0da4fb59406def0494bf56f4dcc3e6e0c60b22b9cbc492e55",
+            "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v3.89.01/Waifu2x-Extension-GUI-v3.89.01-Win64.7z",
+            "hash": "fe2748c6822612fb86494569ae9b3bc3074e7ec8320421ea37fa0c5c270e9f0e",
             "pre_install": [
                 "Move-Item $dir\\waifu2x-extension-gui\\* $dir -Force",
                 "Remove-Item $dir\\waifu2x-extension-gui"
