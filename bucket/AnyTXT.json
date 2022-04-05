@@ -1,10 +1,10 @@
 {
-    "version": "1.2.694",
+    "version": "1.2.695",
     "description": "A local document search application",
     "homepage": "https://anytxt.net/",
     "license": "GPL-3.0-or-later",
-    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.694.exe",
-    "hash": "sha1:1077282e06567dad434aad54caf2ca356b165701",
+    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.695.exe",
+    "hash": "sha1:dea7b70d391219970038aab3b7d017fd9728b64e",
     "innosetup": true,
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.db\")) { New-Item \"$dir\\config.db\" | Out-Null }",
     "bin": "ATGUI.exe",
