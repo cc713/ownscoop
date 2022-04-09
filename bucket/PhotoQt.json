@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://photoqt.org/downloads/windows/photoqt-2.6.exe#/dl.7z",
-            "hash": "1f27876a1bb28d2cea5786868a2b2e3449577c63ee1f240f2094130cf10acc54",
+            "hash": "fda2eb0570314a1ca02d5dc1a0fb3ba5d5c8e09d04687a1b8042fc7e2210ba34",
             "bin": "photoqt.exe"
         }
     },
