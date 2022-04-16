@@ -1,16 +1,16 @@
 {
-    "version": "1.9.20",
+    "version": "1.9.21",
     "description": "JACK Audio Connection Kit (or JACK) is a professional sound server API and pair of daemon implementations to provide real-time, low-latency connections for both audio and MIDI data between applications.",
     "homepage": "https://jackaudio.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jackaudio/jack2-releases/releases/download/v1.9.20/jack2-win64-v1.9.20.exe",
-            "hash": "e7cbeac84b461d611890d1f8cd2a72e6d03785586d83250928d3d167404b46ed"
+            "url": "https://github.com/jackaudio/jack2-releases/releases/download/v1.9.21/jack2-win64-v1.9.21.exe",
+            "hash": "245978e9c017e8559a230bc1a77ed9e0b5ca8c5b19f8713db36b4a9e6eb5c0ed"
         },
         "32bit": {
-            "url": "https://github.com/jackaudio/jack2-releases/releases/download/v1.9.20/jack2-win32-v1.9.20.exe",
-            "hash": "2302a95922481664ae7cf5be957d345aa9abf51d8ebe08667a5588fef910c844"
+            "url": "https://github.com/jackaudio/jack2-releases/releases/download/v1.9.21/jack2-win32-v1.9.21.exe",
+            "hash": "fd1b40a7c3f3fdb0b3ca11412860e639761a0b17b33cbecb733bc800fc07d884"
         }
     },
     "innosetup": true,
