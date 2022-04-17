@@ -1,10 +1,10 @@
 {
-    "version": "5.16",
+    "version": "5.17",
     "description": "GUI client based on v2ray core",
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/2dust/v2rayN/releases/download/5.16/v2rayN-Core.zip",
-    "hash": "d2432ac3ec7881382c5807330c8f2da994f766bd8da551c2a3e3d59592842c09",
+    "url": "https://github.com/2dust/v2rayN/releases/download/5.17/v2rayN-Core.zip",
+    "hash": "14d860ad5ce69834d6cf7424bba47438840cbedce23fa7cf17987824f34e1678",
     "extract_dir": "v2rayN-Core",
     "bin": "v2rayN.exe",
     "shortcuts": [
