@@ -1,12 +1,12 @@
 {
-    "version": "3.9.1",
+    "version": "4.0",
     "description": "Video player that can play online videos from youtube, bilibili etc.",
     "homepage": "https://github.com/coslyk/moonplayer",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/coslyk/moonplayer/releases/download/v3.9.1/MoonPlayer_3.9.1_win_x64.exe",
-            "hash": "E03768F69691856B058A315C0851E28588CF62A7BB2D1ADED70717A687A50768"
+            "url": "https://github.com/coslyk/moonplayer/releases/download/v4.0/MoonPlayer_win_x64.exe",
+            "hash": "75c384e943ebafbdf26adad1cf51026b995008ddd60bcba72c793652f527f827"
         }
     },
     "innosetup": true,
@@ -21,8 +21,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/coslyk/moonplayer/releases/download/v$version/MoonPlayer_$version_win_x64.exe"
-                }
+                "url": "https://github.com/coslyk/moonplayer/releases/download/v$version/MoonPlayer_win_x64.exe"
+            }
         }
     }
 }

@@ -1,10 +1,12 @@
 {
-    "version": "20220130",
+    "version": "20220501",
     "description": "完美解码是一款为高清影视爱好者精心打造的影音解码包，能软硬件解码播放流行的视频和音频格式。集成多媒体播放器PotPlayer、MPC-HC、MPC-BE，分离器解码器套件LAV Filters，高画质渲染器madVR，支持中英语言安装使用。",
     "homepage": "https://jm.wmzhe.com",
     "license": "Freeware",
-    "url": "https://dl-t1.wmzhe.com/13/13163/PureCodec20220130.exe#/dl.7z",
-    "hash": "5a5a2c54231cab5043a6ec708cc395a85c68bc1da2080f1826b720d2bc1f414b",
+    "url": "https://dl-t1.wmzhe.com/13/13163/完美解码20220501.rar",
+    "hash": "33cae4672ae942a03fa37c8c96a86ced66fb202796e01b885bc96b193eb65a0c",
+    "extract_dir":"完美解码",
+    "pre_install": "Expand-7zipArchive \"$dir\\PureCodec*.exe\" \"$dir\"",
     "shortcuts": [
         [
             "PureSet.exe",
@@ -25,13 +27,15 @@
     ],
     "post_install": [
         "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-        "Remove-Item -LiteralPath \"$dir\\`$LOCALAPPDATA\" -Force -Recurse"
+        "Remove-Item -LiteralPath \"$dir\\`$LOCALAPPDATA\" -Force -Recurse",
+        "Remove-Item -LiteralPath \"$dir\\旧版本\" -Force -Recurse",
+        "Remove-Item \"$dir\\PureCodec*.exe\" -Force -Recurse"
     ],
     "checkver": {
         "url": "https://www.wmzhe.com/soft-13163.html",
         "regex": "version\">(\\d+)<"
     },
     "autoupdate": {
-        "url": "https://dl-t1.wmzhe.com/13/13163/PureCodec$version.exe#/dl.7z"
+        "url": "https://dl-t1.wmzhe.com/13/13163/完美解码$version.rar"
     }
 }
