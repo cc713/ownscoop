@@ -7,10 +7,6 @@
         "64bit": {
             "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v3.7k/hitomi_downloader_GUI.zip",
             "hash": "7fef059f3992b574676173576b0718cd8f4caa7b411382643199ba0e02e3be53"
-        },
-        "32bit": {
-            "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v2.7h/hitomi_downloader_GUI.zip",
-            "hash": ""
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\hitomi_downloader_GUI.ini\")) { New-Item \"$dir\\hitomi_downloader_GUI.ini\" | Out-Null }",
@@ -32,6 +28,5 @@
                 "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v$version/hitomi_downloader_GUI.zip"
             }
         }
-    },
-    "notes": "Latest version supports 32bit is 2.7h."
+    }
 }
