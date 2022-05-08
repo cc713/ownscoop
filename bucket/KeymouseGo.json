@@ -1,12 +1,12 @@
 {
-    "version": "3.2.2",
+    "version": "4.0",
     "description": "类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 | automate mouse clicks and keyboard input ",
     "homepage": "https://taojy123.github.io/KeymouseGo",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/taojy123/KeymouseGo/releases/download/v3.2.2/KeymouseGo_v3.2.2.exe#/KeymouseGo.exe",
-            "hash": "788663008715fe0b1d030115ac89e8c0aae4ae0c56226ebd494e0686dc484e2c"
+            "url": "https://github.com/taojy123/KeymouseGo/releases/download/v4.0/KeymouseGo_v4.0.exe#/KeymouseGo.exe",
+            "hash": "fb9986f11890dd710a89aa45557738cf3adecdf93386fb74ed21a37421664368"
         }
     },
     "bin": "KeymouseGo.exe",
