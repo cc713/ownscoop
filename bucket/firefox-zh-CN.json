@@ -1,20 +1,20 @@
 {
-    "version": "99.0.1",
+    "version": "100.0",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/99.0.1/win64/zh-CN/Firefox%20Setup%2099.0.1.exe#/dl.7z",
-            "hash": "sha512:5c476cee23162421ab6454a1065e5e3b9bf37673b2ee7baf767f4f5cfa12c3a6b8dd31606002f5ea380a0be3c9156a74909ed514b82cb83fbe1f1258d7f8a70b"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/100.0/win64/zh-CN/Firefox%20Setup%20100.0.exe#/dl.7z",
+            "hash": "sha512:2e35ec7e5e35b33e183343224a27eb654e38763ba64ab23f75bd40547cf86a555d3f77bd0e3503b6eb243955db7b80ef9f1c027ac8e525d563e6f9f63e988337"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/99.0.1/win32/zh-CN/Firefox%20Setup%2099.0.1.exe#/dl.7z",
-            "hash": "sha512:ac50eabb14741c07c7e8571af0943a875e477843e77dc05d53e513c165ca5c91e46fcab0f0391cca4c427b63053f5381e3fadec73b0cf901f243e3ce00654c28"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/100.0/win32/zh-CN/Firefox%20Setup%20100.0.exe#/dl.7z",
+            "hash": "sha512:f1dc1d4b7c78749d009a27bfdd481ddc7d77a5390b7db3a8a371deb31062165b15189f68f1cc2b207d6c37d0e484403cd45eeff4fc18896a1b8220c87da1fea6"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/99.0.1/win64-aarch64/zh-CN/Firefox%20Setup%2099.0.1.exe#/dl.7z",
-            "hash": "sha512:93ec3a6c3962098574e2715a1ff28b4d2c71ed30e2b969e0aa109c731bb93f75d4e13de23707dd8e3888ef34588efb962e6b5863b62dc4ffc9770f6d035f978c"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/100.0/win64-aarch64/zh-CN/Firefox%20Setup%20100.0.exe#/dl.7z",
+            "hash": "sha512:305e09f261ef7ffd1f59ae349d9f7abccc7e8c842677d29335072752409a4623bc3436f5ede85bbb33712e90a7a1bd875ce5a99c3487ebe4113ff5ed99ed635d"
         }
     },
     "extract_dir": "core",
@@ -28,8 +28,7 @@
     "persist": "distribution",
     "checkver": {
         "url": "https://archive.mozilla.org/pub/firefox/candidates/",
-        "regex": "pub/firefox/candidates/([\\d.]+)-candidates",
-        "reverse": true
+        "regex": "pub/firefox/candidates/([\\d.]+)-candidates"
     },
     "autoupdate": {
         "architecture": {
