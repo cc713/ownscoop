@@ -1,12 +1,12 @@
 {
-    "version": "0.52.2_20220610",
+    "version": "0.52.3_20220614",
     "description": "Build your personal knowledge base with Trilium Notes",
     "homepage": "https://github.com/zadam/trilium",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nriver/trilium-translation/releases/download/v0.52.2_20220610/trilium-cn-windows-x64.zip",
-            "hash": "889455d59015f7a6d55708602b25509a28864546ba53d5b8a74ec92b6f5badcb",
+            "url": "https://github.com/Nriver/trilium-translation/releases/download/v0.52.3_20220614/trilium-cn-windows-x64.zip",
+            "hash": "e85e039dee8f122e3f00a6a98c9760bb5cc4f3fd10c3f0b9deda97590a9ed19e",
             "extract_dir": "trilium-windows-x64"
         }
     },
