@@ -1,10 +1,10 @@
 {
-    "version": "2022-06-06",
+    "version": "2022-06-14",
     "description": "Addons for Cudatext, a cross-platform text editor written in Lazarus.",
     "homepage": "https://cudatext.github.io/",
     "license": "MPL-2.0",
     "url": "https://sourceforge.net/projects/cudatext/files/addons_all/CudaText_addons.zip",
-    "hash": "sha1:982286ef70a847c11179ab8458001c5f1b3785be",
+    "hash": "sha1:5630ecda000401e9a92afe22d5e3e480512cb5df",
     "checkver": {
         "url": "https://sourceforge.net/projects/cudatext/files/addons_all/",
         "regex": "title=\"([\\d-]+)"
