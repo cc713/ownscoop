@@ -4,7 +4,7 @@
     "homepage": "https://github.com/zhoujin7/crawl-scoop-directory",
     "license": "MIT",
     "url": "https://github.com/zhoujin7/crawl-scoop-directory/raw/master/scoop_directory.db",
-    "hash": "fad013ac96bc92d3df98ac332400e2cb978a959a08ca1c74cbd2cd274e1aa474",
+    "hash": "1c99dacf3eeda5d9087d883a92269a235b9b9efb9296d29bfaa2c5e6d8b60836",
     "shortcuts": [
         [
             "scoop_directory.db",
