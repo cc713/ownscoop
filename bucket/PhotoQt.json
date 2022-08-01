@@ -1,12 +1,12 @@
 {
-    "version": "2.7",
+    "version": "2.8",
     "description": "PhotoQt is a simple yet powerful and good looking image viewer, based on Qt/QML, published as open-source, and completely free.",
     "homepage": "https://photoqt.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://photoqt.org/downloads/windows/photoqt-2.7.exe#/dl.7z",
-            "hash": "a4145052636f0a5c6a764b94cdd21361c6536aa71fe3ded958c969671393edbb",
+            "url": "https://photoqt.org/downloads/windows/photoqt-2.8.exe#/dl.7z",
+            "hash": "ba27423970f9df8a45edea8e9beada888468073fe28484ed874106157d1c4a26",
             "bin": "photoqt.exe"
         }
     },
