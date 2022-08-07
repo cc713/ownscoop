@@ -1,19 +1,19 @@
 {
-    "version": "20220301",
+    "version": "20220807",
     "description": "This tool will let you mount image files of hard drive, cd-rom or floppy, and create one or several ramdisks with various parameters.",
     "homepage": "https://sourceforge.net/projects/imdisk-toolkit",
     "license": "WTFPL",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/imdisk-toolkit/files/20220301/ImDiskTk-x64.zip",
-            "hash": "sha1:1e2861efc18c7356eab91e46290f4f0a7463c663"
+            "url": "https://sourceforge.net/projects/imdisk-toolkit/files/20220807/ImDiskTk-x64.zip",
+            "hash": "sha1:e393e52334eb089299661fe8fa6c6c5cbc09d982"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/imdisk-toolkit/files/20220301/ImDiskTk.zip",
-            "hash": "sha1:12456bdb68b117d34e58c54ca44d84d831e26378"
+            "url": "https://sourceforge.net/projects/imdisk-toolkit/files/20220807/ImDiskTk.zip",
+            "hash": "sha1:bf901944e428364ac96e3e35f7c7b9636e100dd1"
         }
     },
-    "extract_dir": "ImDiskTk20220301",
+    "extract_dir": "ImDiskTk20220807",
     "installer": {
         "file": "install.bat",
         "args": "/installfolder:\"$dir\"",
