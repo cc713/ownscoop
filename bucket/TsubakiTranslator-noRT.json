@@ -1,12 +1,12 @@
 {
-    "version": "1.0.4.1",
+    "version": "1.0.4.2",
     "description": "一款Galgame文本提取和翻译的工具",
     "homepage": "https://github.com/Isayama-Kagura/TsubakiTranslator",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Isayama-Kagura/TsubakiTranslator/releases/download/v1.0.4.1/TsubakiTranslator_WithoutRT.rar",
-            "hash": "bc0474bdcefea9ee2fc1f98d76e3ac0bfd85c0cb97f65dfb50986dbddfe6d3a8",
+            "url": "https://github.com/Isayama-Kagura/TsubakiTranslator/releases/download/v1.0.4.2/TsubakiTranslator_WithoutRT.rar",
+            "hash": "7d950a00fd4d9611b36e2490996abfa9a90a25fa6cd00ec28ef57d9ad5606ea7",
             "extract_dir": "TsubakiTranslator_WithoutRT"
         }
     },
