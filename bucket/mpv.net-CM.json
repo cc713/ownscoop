@@ -1,29 +1,32 @@
 {
-    "version": "5800",
-    "description": "基于 mpv.net 的中文分支模组",
-    "homepage": "https://github.com/hooke007/mpv.net_CM",
-    "license": "MIT",
-    "url": "https://github.com/hooke007/mpv.net_CM/releases/download/5800/mpvnet-CM-20220403.7z",
-    "hash": "c3d9916f53b46dc77c8e09a6005b8959052d76770490cae41d502e8f9a741f6e",
-    "extract_dir": "mpvnet",
-    "bin": [
-        [
-            "mpvnet.exe",
-            "mpvnetCM"
-        ]
-    ],
+    "version": "6031-20220730",
+    "description": "mpv.net_CM 是基于 mpv.net 上游的中文分支模组",
+    "homepage": "https://bbs.acgrip.com/thread-7798-1-1.html",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hooke007/mpv.net_CM/releases/download/6031/mpvnet-CM-20220730.exe/#dl.7z",
+            "hash": "f6476ff2c33785a841bbbdd4c9c2e77fd5691c586b6a8db94541670177f8956a",
+            "extract_dir": "mpvnet"
+        }
+    },
+    "bin": "mpvnet.exe",
     "shortcuts": [
         [
             "mpvnet.exe",
-            "mpv.net-CM"
+            "mpvnet"
         ]
     ],
-    "persist": "portable_config",
     "checkver": {
-        "url": "https://github.com/hooke007/mpv.net_CM/releases",
-        "regex": "releases/download/(.+?)/(.+?)\\.7z"
+        "github": "https://github.com/hooke007/mpv.net_CM",
+        "regex": "/releases/download/(?<tag>\\w+)/mpvnet-CM-(?<build>\\d{8})",
+        "replace": "${tag}-${build}"
     },
     "autoupdate": {
-        "url": "https://github.com/hooke007/mpv.net_CM/releases/download/$match1/$match2.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hooke007/mpv.net_CM/releases/download/$matchTag/mpvnet-CM-$matchBuild.exe/#dl.7z"
+            }
+        }
     }
 }
