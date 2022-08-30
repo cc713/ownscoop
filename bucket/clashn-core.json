@@ -1,10 +1,10 @@
 {
-    "version": "1.20",
+    "version": "1.21",
     "description": "A clash client for Windows, support clash core and Clash.Meta core",
     "homepage": "https://github.com/2dust/clashN",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/2dust/clashN/releases/download/1.20/clashN-Core.zip",
-    "hash": "05801a139ac8c6dba887db54ccd110bb8e60d48cbc7b8c04dde6af91818ed55b",
+    "url": "https://github.com/2dust/clashN/releases/download/1.21/clashN-Core.zip",
+    "hash": "e1bed7e3cce16d1a03328c1d7b1d6610804cfef5e915ec1226f574f6d012c14b",
     "extract_dir": "clashN-Core",
     "bin": "clashN.exe",
     "shortcuts": [
