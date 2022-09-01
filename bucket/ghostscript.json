@@ -1,5 +1,5 @@
 {
-    "version": "9.56.0",
+    "version": "9.56.1",
     "description": "An interpreter for the PostScript language and for PDF",
     "homepage": "https://www.ghostscript.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9560/gs9560w64.exe#/dl.7z",
-            "hash": "sha512:c4c0a1cd57ec3475cbed102829d427a2819fae736a7eaddde7ff3a39c9297f7b0c47fc3d96155850510cd34972e891388f71b5070bb2c4be81cbece2b3700f85",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9561/gs9561w64.exe#/dl.7z",
+            "hash": "sha512:6ae5459b57e0884c744a394571847043d45b9339cf83feb15b41efabb2418c62c7e9e127fd7a0c8e4b14a79f0ad2960a7e70198f562646722801ee100cf0bb5a",
             "bin": [
                 "bin\\gswin64.exe",
                 "bin\\gswin64c.exe",
@@ -20,8 +20,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9560/gs9560w32.exe#/dl.7z",
-            "hash": "sha512:138fdea4636abd52121856b71255d2cd82789a4efcf1efe989eef9e3e778d66641e7cadadad5660197b46611bc8892b300668d20d4390804cdcbac52885e04cd",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9561/gs9561w32.exe#/dl.7z",
+            "hash": "sha512:265626d254df21be90279d7b5556ea491ba82db3c03343e3c0b86f2ddc3f2a4457fe8e9c9afabaad87ad65e590e12043fa75c12cc58efc0b7ee2d4debb87a578",
             "bin": [
                 "bin\\gswin32.exe",
                 "bin\\gswin32c.exe",
