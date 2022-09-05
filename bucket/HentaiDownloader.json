@@ -1,10 +1,10 @@
 {
-    "version": "2.2",
+    "version": "2.3",
     "description": "Simple solution that allows you to download your favourite images from various sites.",
     "homepage": "https://github.com/narumii/HentaiDownloader",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/narumii/HentaiDownloader/releases/download/2.2/HentaiDownloader.jar",
-    "hash": "a9ddc22e5c1ef0c8cfcba46215f69c3ff745351cac34d5e164f9e13892e14be0",
+    "url": "https://github.com/narumii/HentaiDownloader/releases/download/2.3/HentaiDownloader.jar",
+    "hash": "004ca5a341fbf6ad72d1c23fd9cd014180aff70dfc13fa220dd6c4b75818935b",
     "installer": {
         "script": "Set-Content \"$dir\\HentaiDownloader.bat\" (@('@echo off', 'java -jar HentaiDownloader.jar')) -Encoding ASCII"
     },
