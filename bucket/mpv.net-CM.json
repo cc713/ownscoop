@@ -10,7 +10,12 @@
             "extract_dir": "mpvnet"
         }
     },
-    "bin": "mpvnet.exe",
+    "bin": [
+        [
+            "mpvnet.exe",
+            "mpvCM"
+        ]
+    ],
     "shortcuts": [
         [
             "mpvnet.exe",
