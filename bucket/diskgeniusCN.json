@@ -1,5 +1,5 @@
 {
-    "version": "5.4.5.1412",
+    "version": "5.4.6.1432",
     "description": "DiskGenius (Chinese)",
     "homepage": "https://www.diskgenius.cn/download.php",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.eassos.cn/DG5451412_x64.zip",
-            "hash": "592586a72b33bc74dcf4d76d551da71347bae5413e5832b8be1d01b4b45872f3"
+            "url": "https://download.eassos.cn/DG5461432_x64.zip",
+            "hash": "3167946105b471c15361c3ad092b3a4df63d0e7b0f7fa292a0c461c44b3e25a3"
         },
         "32bit": {
-            "url": "https://download.eassos.cn/DG5451412_x86.zip",
-            "hash": "9f60c40e54510e204d5b5ab67fa131df9b23fa22d540b62f1b8a2114e1d06774"
+            "url": "https://download.eassos.cn/DG5461432_x86.zip",
+            "hash": "40db467d840eb194a119f7878d7202b85ccf645d1ed6976e2bad8195142ba7d2"
         }
     },
     "extract_dir": "DiskGenius",
