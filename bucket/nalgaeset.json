@@ -1,0 +1,12 @@
+{
+    "version": "1040",
+    "description": "Nalgaeset is a Korean input method software for Microsoft Windows supporting Romaja Hangul input.",
+    "homepage": "http://moogi.new21.org/en/ngs/index.htm",
+    "license": "Freeware",
+    "url": "http://moogi.new21.org/bin/Ngs1040Setup_x64.msi",
+    "hash": "74e178047a0bd15f8b5fd5a0030b8833b8d785e9c31e4380b803d4d090f56c21",
+    "checkver": {
+        "url": "http://moogi.new21.org/en/ngs/index.htm",
+        "regex": "Ngs(\\d+)Setup"
+    }
+}
