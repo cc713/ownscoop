@@ -1,10 +1,10 @@
 {
-    "version": "1.2.933.Win32_Win64",
+    "version": "1.2.941.Win32_Win64",
     "description": "A Desktop Search Tool with A Powerful Full-Text Search Engine. Free Google Desktop Search Alternative.",
     "homepage": "https://anytxt.net/",
     "license": "freeware",
-    "url": "https://down.sp-all.laifaxin.com/AnyTXT.Searcher.1.2.933.Win32_Win64.zip",
-    "hash": "21a4f5ea97c57f6ffe1078c99382f18d33c5945ef0ab8fe28cabd33a2005a949",
+    "url": "https://down.sp-all.laifaxin.com/AnyTXT.Searcher.1.2.941.Win32_Win64.zip",
+    "hash": "c88956734fd688b983263be9f00d591cfd54950b8957a13564ee6acff6a68140",
     "installer": {
         "script": [
             "Move-Item -Path $dir\\AnyTXT*.exe $dir\\setup.exe -Force",
