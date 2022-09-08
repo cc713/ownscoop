@@ -8,5 +8,8 @@
     "checkver": {
         "url": "http://moogi.new21.org/en/ngs/index.htm",
         "regex": "Ngs(\\d+)Setup"
+    },
+    "autoupdate": {
+        "url": "http://moogi.new21.org/bin/Ngs$versionSetup_x64.msi"
     }
 }
