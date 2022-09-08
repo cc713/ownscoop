@@ -1,25 +1,25 @@
 {
-    "version": "1.2.941.Win32_Win64",
-    "description": "A Desktop Search Tool with A Powerful Full-Text Search Engine. Free Google Desktop Search Alternative.",
-    "homepage": "https://anytxt.net/",
+    "version": "1.2.703",
+    "description": "A local document search application",
+    "homepage": "https://anytxt.net",
     "license": "freeware",
-    "url": "https://down.sp-all.laifaxin.com/AnyTXT.Searcher.1.2.941.Win32_Win64.zip",
-    "hash": "c88956734fd688b983263be9f00d591cfd54950b8957a13564ee6acff6a68140",
-    "installer": {
-        "script": [
-            "Move-Item -Path $dir\\AnyTXT*.exe $dir\\setup.exe -Force",
-            "Start-Process -Wait \"$dir\\setup.exe\" \"/verysilent /norestart /DIR=`\"$dir`\"\" -Verb RunAs"
+    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.703.exe",
+    "hash": "sha1:1c355ab49c550a53b34998f6ab2aad76e24e3e98",
+    "innosetup": true,
+    "pre_install": "if (!(Test-Path \"$persist_dir\\config.db\")) { New-Item \"$dir\\config.db\" | Out-Null }",
+    "bin": "ATGUI.exe",
+    "shortcuts": [
+        [
+            "ATGUI.exe",
+            "AnyTXT"
         ]
-    },
-    "bin": "atgui.exe",
-    "uninstaller": {
-        "script": "Start-Process -Wait \"$dir\\unins000.exe\" \"/verysilent /norestart\" -Verb RunAs"
-    },
+    ],
+    "persist": "config.db",
     "checkver": {
-        "url": "https://anytxt.net/download/",
+        "url": "https://anytxt.net/download",
         "regex": "AnyTXT.Searcher.(.*).zip"
     },
     "autoupdate": {
-        "url": "https://down.sp-all.laifaxin.com/AnyTXT.Searcher.$version.zip"
+        "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.$version.exe"
     }
 }

@@ -1,0 +1,40 @@
+{
+    "version": "4.0.83",
+    "description": "An Android emulator optimized for mobile gaming with lower resource consumption",
+    "homepage": "https://www.ldmnq.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.ldmnq.com/ldy/userXieyi.html"
+    },
+    "notes": "Administrator privileges are required to run repairer",
+    "url": "https://res.ldmnq.com/download/leidian9/ldinst9_9.0.21.exe#/dl.7z",
+    "hash": "ffe4fd32513e15308a09d962a9a13b197c4c7eadcda08c5162100c45b90c705a",
+    "shortcuts": [
+        [
+            "dnplayer.exe",
+            "LDPlayer\\LDPlayer"
+        ],
+        [
+            "dnmultiplayer.exe",
+            "LDPlayer\\LDMultiPlayer"
+        ],
+        [
+            "dnrepairer.exe",
+            "LDPlayer\\LDPlayer Repairer"
+        ]
+    ],
+    "uninstaller": {
+        "file": "dnuninst.exe"
+    },
+    "persist": [
+        "ldrecord\\video",
+        "vms"
+    ],
+    "checkver": {
+        "url": "https://www.ldmnq.com",
+        "regex": "V(9[\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://res.ldmnq.com/download/leidian9/ldinst9_$version.exe#/dl.7z"
+    }
+}
