@@ -1,12 +1,17 @@
 {
-    "version": "1.2.703",
+    "version": "1.2.941.Win32_Win64",
     "description": "A local document search application",
     "homepage": "https://anytxt.net",
     "license": "freeware",
-    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.703.exe",
-    "hash": "sha1:1c355ab49c550a53b34998f6ab2aad76e24e3e98",
-    "innosetup": true,
-    "pre_install": "if (!(Test-Path \"$persist_dir\\config.db\")) { New-Item \"$dir\\config.db\" | Out-Null }",
+    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.941.Win32_Win64.exe",
+    "hash": "sha1:4f31552d23441df72886beb144725b66912b786f",
+    "installer": {
+        "args": [
+            "/verysilent",
+            "/dir=\"$dir\""
+        ],
+        "script": "sudo taskkill /F /IM ATService.exe | Out-Null"
+    },
     "bin": "ATGUI.exe",
     "shortcuts": [
         [
@@ -15,6 +20,11 @@
         ]
     ],
     "persist": "config.db",
+    "post_install": "Remove-Item \"$Env:Public\\Desktop\\AnyTXT*.lnk\"",
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": "/verysilent"
+    },    
     "checkver": {
         "url": "https://anytxt.net/download",
         "regex": "AnyTXT.Searcher.(.*).zip"
