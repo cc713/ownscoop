@@ -1,21 +1,19 @@
 {
-    "version": "9.0.21.2",
+    "version": "4.0.83",
     "description": "An Android emulator optimized for mobile gaming with lower resource consumption",
-    "homepage": "https://www.ldmnq.com",
-    "license": {
-        "identifier": "Freeware",
-        "url": "https://www.ldmnq.com/ldy/userXieyi.html"
-    },
+    "homepage": "https://www.ldplayer.net",
+    "license": "Unknown",
     "notes": "Administrator privileges are required to run repairer",
-    "url": "https://res.ldmnq.com/download/leidian9/ldinst9_9.0.21.2.exe#/dl.7z",
-    "hash": "0bfb1ac6a211144574af7993b3d67dca8c5335675e82fd5388f5d804cd01de84",
+    "url": "https://encdn.ldmnq.com/download/package/LDPlayer_4.0.83.exe#/dl.7z",
+    "hash": "ffe4fd32513e15308a09d962a9a13b197c4c7eadcda08c5162100c45b90c705a",
     "post_install": [
         "Remove-Item \"$dir\\log\" -Force -Recurse",
         "Remove-Item \"$dir\\upload\" -Force -Recurse",
         "Remove-Item \"$dir\\*report*\" -Force",
         "Remove-Item \"$dir\\dnuninst.exe\" -Force",
-        "Remove-Item \"$dir\\ldnews.exe\" -Force",
-        "Remove-Item \"$dir\\ldremoteinst.exe\" -Force"
+        "Remove-Item \"$dir\\ldyunuuploaden.exe\" -Force",
+        "Remove-Item \"$dir\\dnutility.dll\" -Force",
+        "Remove-Item \"$dir\\zone.tab\" -Force"
     ],
     "shortcuts": [
         [
@@ -36,10 +34,10 @@
         "vms"
     ],
     "checkver": {
-        "url": "https://www.ldmnq.com",
-        "regex": "V(9[\\d.]+)<"
+        "url": "https://www.ldplayer.net/other/version-history-and-release-notes.html",
+        "regex": "version:\"(9[\\d.]+)\""
     },
     "autoupdate": {
-        "url": "https://res.ldmnq.com/download/leidian9/ldinst9_$version.exe#/dl.7z"
+        "url": "https://encdn.ldmnq.com/download/package/LDPlayer_$version.exe#/dl.7z"
     }
 }
