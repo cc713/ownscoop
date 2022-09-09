@@ -1,5 +1,5 @@
 {
-    "version": "9.0.21.2",
+    "version": "9.0.21.3",
     "description": "An Android emulator optimized for mobile gaming with lower resource consumption",
     "homepage": "https://www.ldmnq.com",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://www.ldmnq.com/ldy/userXieyi.html"
     },
     "notes": "Administrator privileges are required to run repairer",
-    "url": "https://res.ldmnq.com/download/leidian9/ldinst9_9.0.21.2.exe#/dl.7z",
-    "hash": "0bfb1ac6a211144574af7993b3d67dca8c5335675e82fd5388f5d804cd01de84",
+    "url": "https://res.ldmnq.com/download/leidian9/ldinst9_9.0.21.3.exe#/dl.7z",
+    "hash": "b7a0ad1dbf201d92d17b9aa8afe0843f8b23441fcc4961099055f8f845608101",
     "post_install": [
         "Remove-Item \"$dir\\log\" -Force -Recurse",
         "Remove-Item \"$dir\\upload\" -Force -Recurse",
