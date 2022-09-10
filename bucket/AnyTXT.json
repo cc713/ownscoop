@@ -1,10 +1,10 @@
 {
-    "version": "1.2.941.Win32_Win64",
+    "version": "1.2.944.Win32_Win64",
     "description": "A local document search application",
     "homepage": "https://anytxt.net",
     "license": "freeware",
-    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.941.Win32_Win64.exe",
-    "hash": "sha1:4f31552d23441df72886beb144725b66912b786f",
+    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.944.Win32_Win64.exe",
+    "hash": "sha1:aebc240a1f6a0cf889f1e4a6a624339ba5170628",
     "installer": {
         "args": [
             "/verysilent",
@@ -24,7 +24,7 @@
     "uninstaller": {
         "file": "unins000.exe",
         "args": "/verysilent"
-    },    
+    },
     "checkver": {
         "url": "https://anytxt.net/download",
         "regex": "AnyTXT.Searcher.(.*).zip"
