@@ -1,5 +1,5 @@
 {
-    "version": "9.0.21.3",
+    "version": "9.0.21.4",
     "description": "An Android emulator optimized for mobile gaming with lower resource consumption",
     "homepage": "https://www.ldmnq.com",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://www.ldmnq.com/ldy/userXieyi.html"
     },
     "notes": "Administrator privileges are required to run repairer",
-    "url": "https://res.ldmnq.com/download/leidian9/ldinst9_9.0.21.3.exe#/dl.7z",
-    "hash": "b7a0ad1dbf201d92d17b9aa8afe0843f8b23441fcc4961099055f8f845608101",
+    "url": "https://res.ldmnq.com/download/leidian9/ldinst9_9.0.21.4.exe#/dl.7z",
+    "hash": "298a1f501353b1bf12ad89aa5f96ecc751960aa17d4f808f5707a9317f6246e4",
     "pre_install": [
         "Copy-Item \"$bucketsdir\\ownscoop\\scripts\\ldmnq9\\install.bat\" \"$dir\\\" | Out-Null",
         "Copy-Item \"$bucketsdir\\ownscoop\\scripts\\ldmnq9\\uninstall.bat\" \"$dir\\\" | Out-Null"
@@ -24,7 +24,7 @@
     "installer": {
         "script": "Start-Process -Wait \"$dir\\install.bat\""
     },
-    "uninstaller" : {
+    "uninstaller": {
         "script": "Start-Process -Wait \"$dir\\uninstall.bat\""
     },
     "shortcuts": [
