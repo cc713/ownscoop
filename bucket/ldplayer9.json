@@ -6,6 +6,10 @@
     "notes": "Administrator privileges are required to run repairer",
     "url": "https://encdn.ldmnq.com/download/package/LDPlayer_9.0.20.exe#/dl.7z",
     "hash": "c0ebe371b399158231b9342b9b03fe3181a2c7b714d5dfc2eb75aacca1870295",
+    "pre_install": [
+        "Copy-Item \"$bucketsdir\\ownscoop\\scripts\\ldplayer9\\install.bat\" \"$dir\\\" | Out-Null",
+        "Copy-Item \"$bucketsdir\\ownscoop\\scripts\\ldplayer9\\uninstall.bat\" \"$dir\\\" | Out-Null"
+    ],
     "post_install": [
         "Remove-Item \"$dir\\log\" -Force -Recurse",
         "Remove-Item \"$dir\\upload\" -Force -Recurse",
@@ -15,6 +19,12 @@
         "Remove-Item \"$dir\\dnutility.dll\" -Force",
         "Remove-Item \"$dir\\zone.tab\" -Force"
     ],
+    "installer": {
+        "script": "Start-Process -Wait \"$dir\\install.bat\""
+    },
+    "uninstaller" : {
+        "script": "Start-Process -Wait \"$dir\\uninstall.bat\""
+    },
     "shortcuts": [
         [
             "dnplayer.exe",
