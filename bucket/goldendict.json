@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "version": "22.8.24-alpha.220917.c88d85ba",
     "description": "A feature-rich dictionary lookup program",
     "homepage": "https://github.com/xiaoyifang/goldendict",
@@ -6,6 +7,14 @@
     "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.8.24-alpha.220917.c88d85ba/6.3.1-GoldenDict-v22-Install.exe#/dl.7z",
     "hash": "b9cd518e6683c703bfb795fa0158a5e4a8bbe35b65cb9c9f807db01d1391954e",
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\[LICENSE].txt\", \"$dir\\*.nsi\", \"$dir\\uninstall.exe\" -Recurse",
+=======
+    "version": "v22.8.24-alpha.220918.0a27b4d9",
+    "description": "A feature-rich dictionary lookup program",
+    "homepage": "https://github.com/xiaoyifang/goldendict",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.8.24-alpha.220918.0a27b4d9/6.3.1-GoldenDict.exe_windows-2019_20220918.zip",
+    "hash": "0005a0e28b98a1acbd3496f0431ed668281b465063cabca49efd0d9d3a1fdf28",
+>>>>>>> f4ec57bdd4af1e4a180c2bc5943bbd70eb5f75d7
     "shortcuts": [
         [
             "GoldenDict.exe",
