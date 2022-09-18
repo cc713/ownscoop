@@ -1,10 +1,10 @@
 {
-    "version": "22.8.24-alpha.220917.c88d85ba",
+    "version": "22.8.24-alpha.220918.0a27b4d9",
     "description": "A feature-rich dictionary lookup program",
     "homepage": "https://github.com/xiaoyifang/goldendict",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.8.24-alpha.220917.c88d85ba/6.3.1-GoldenDict-v22-Install.exe#/dl.7z",
-    "hash": "b9cd518e6683c703bfb795fa0158a5e4a8bbe35b65cb9c9f807db01d1391954e",
+    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.8.24-alpha.220918.0a27b4d9/6.3.1-GoldenDict-v22-Install.exe#/dl.7z",
+    "hash": "6b75a11722f8d7ec5193f1edb5d84b5dec736acaa79210244cf71850b799d35e",
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\[LICENSE].txt\", \"$dir\\*.nsi\", \"$dir\\uninstall.exe\" -Recurse",
     "shortcuts": [
         [
