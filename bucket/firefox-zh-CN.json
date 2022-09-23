@@ -1,20 +1,20 @@
 {
-    "version": "105.0",
+    "version": "105.0.1",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0/win64/zh-CN/Firefox%20Setup%20105.0.exe#/dl.7z",
-            "hash": "sha512:d5295dd31f1c04fb4b0ae0024a9cc7aae720e792d01445eda7eee78a2837257e2a6deec6dc7e400fb333e5142698d6137c3f37ee5424d797d5f3a7ed3243bc48"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.1/win64/zh-CN/Firefox%20Setup%20105.0.1.exe#/dl.7z",
+            "hash": "sha512:91a48c699eb09b56e17c8348ace413153724d9616b307b9cacf377f9fe6265af176527fab7e1e35a2be18af32d98afcc554016a1099d5f65c6c85b76fdcdf79e"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0/win32/zh-CN/Firefox%20Setup%20105.0.exe#/dl.7z",
-            "hash": "sha512:81eb4b67e6700fc4463ca0e5a218df5f4663fbbf475d8de2d27f26cab63e1ee19d43e11f9a8ce82f07b3e912357f29a8a157a5c171c200242dccde9dd7ee23c5"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.1/win32/zh-CN/Firefox%20Setup%20105.0.1.exe#/dl.7z",
+            "hash": "sha512:3bfa716830b9db6140ecfc3605b3e6982af4cb156d49aa41170fd1bc8f41d0036b9dd2959811cb14421f8f879ecf8edbd4b057f9ce5b53791d20e3f06c58a63a"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0/win64-aarch64/zh-CN/Firefox%20Setup%20105.0.exe#/dl.7z",
-            "hash": "sha512:ac046de2bcbd09730d1507f17403d155d5b6a6c836bed2f6fe31eb20a03555bddc7d9f938d902167ef53cf4a39a9a653e976ced93af9cb94e6eb849c4dcb90d5"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.1/win64-aarch64/zh-CN/Firefox%20Setup%20105.0.1.exe#/dl.7z",
+            "hash": "sha512:88bd93179fb5acb5a1cf4ec5dae9e4ddb35001a146d6324642c9ac60398530dcc0fb05dcfaf494664e684e95e4f852a628afcde27d5e367597227554f8f42a2e"
         }
     },
     "extract_dir": "core",
