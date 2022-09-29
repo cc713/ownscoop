@@ -1,0 +1,35 @@
+{
+    "version": "1.2.29",
+    "description": " A command line program to download hentai videos and images from multiple websites.",
+    "homepage": "https://github.com/gan-of-culture/get-sauce",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v1.2.29/get-sauce_1.2.29_Windows_64-bit.zip",
+            "hash": "7303127a308e8aa796bec8f56f58b4e18bd718a90d949344c6322100b5db16d7"
+        },
+        "32bit": {
+            "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v1.2.29/get-sauce_1.2.29_Windows_32-bit.zip",
+            "hash": "fc01e75a1137c5d820cf188261a0cd2d76269404ee47fd9455ece1efd6c32b13"
+        },
+        "arm64": {
+            "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v1.2.29/get-sauce_1.2.29_Windows_arm64.zip",
+            "hash": "9e59af52780b4c670eabb7780db7875e78f79fcf06ddd9d1e5bf348e2a4007cf"
+        }
+    },
+    "bin": "get-sauce.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v$version/get-sauce_$version_Windows_64-bit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v$version/get-sauce_$version_Windows_32-bit.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v$version/get-sauce_$version_Windows_arm64.zip"
+            }
+        }
+    }
+}
