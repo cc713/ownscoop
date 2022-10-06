@@ -1,0 +1,20 @@
+{
+    "version": "10.1.0",
+    "description": "Foreign language reading and translation assistant based on copy and translate",
+    "homepage": "https://copytranslator.github.io/",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/CopyTranslator/CopyTranslator/releases/download/v10.1.0/copytranslator-10.1.0-win.zip",
+    "hash": "81975B00D06A4C7B521A8D48F7A84D4B23F3801BCD7939E7999A77D0266DFE3D",
+    "shortcuts": [
+        [
+            "copytranslator.exe",
+            "CopyTranslator"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/CopyTranslator/CopyTranslator"
+    },
+    "autoupdate": {
+        "url": "https://github.com/CopyTranslator/CopyTranslator/releases/download/v$version/copytranslator-$version-win.zip"
+    }
+}
