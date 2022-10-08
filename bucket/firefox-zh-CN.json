@@ -1,20 +1,20 @@
 {
-    "version": "105.0.2",
+    "version": "105.0.3",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.2/win64/zh-CN/Firefox%20Setup%20105.0.2.exe#/dl.7z",
-            "hash": "sha512:5c9edc2d0b66ea9882ac101aee50149be03a854a02bcf86b8348f4e57374b74e8e67d8c86746d2f76b09c7b4e2c82f8ff0e7e9d59ef01310c877215cf4683236"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.3/win64/zh-CN/Firefox%20Setup%20105.0.3.exe#/dl.7z",
+            "hash": "sha512:39f272a8c451c28196ad7cc2c77bc042d7b2a8a00b4383f64bf0c39f54ee341efe5b815cfb7dc05bcc58cd78c65b4a9fe5f227bf186124195a18e2a74aa9c6e5"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.2/win32/zh-CN/Firefox%20Setup%20105.0.2.exe#/dl.7z",
-            "hash": "sha512:4683b6cb84460b4880165c822748f3952b754b6f0cdda10af3e5dfb7316468e152cb2cd4f1fe3fc9321f7e5d0c7fa45011b1613d4dbb742861332388392efb12"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.3/win32/zh-CN/Firefox%20Setup%20105.0.3.exe#/dl.7z",
+            "hash": "sha512:b993ded2bd41a1fc2b5a720b55503192b7c255540cb4fba63b830bce67acacf53903bcdff91bfd16feab4aa94c73c404157dfc8a43422e571d430bb4054598ba"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.2/win64-aarch64/zh-CN/Firefox%20Setup%20105.0.2.exe#/dl.7z",
-            "hash": "sha512:1772a4a4a4e26349b516f9b6cac79ec241b009590619c1ba1e151d0203d1a24c61a64f9cf13c73800fb3d09e43066f7b430b3fa4b83eec8da9ccaef13056a862"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/105.0.3/win64-aarch64/zh-CN/Firefox%20Setup%20105.0.3.exe#/dl.7z",
+            "hash": "sha512:04b2770ec7cb60b78d3b0ef71d1f7133662e1d143c593ad90eac6d9ec2d28a947c18985b73daf48cfb43802ef1efa7644619c12989ad2ec09afc52b168c68e42"
         }
     },
     "extract_dir": "core",
