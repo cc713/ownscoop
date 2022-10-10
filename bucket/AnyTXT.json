@@ -4,7 +4,7 @@
     "homepage": "https://anytxt.net",
     "license": "freeware",
     "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.970.Win32_Win64.exe",
-    "hash": "042b88e3a577ba7efd52a03a824547fc4cb1f4945117fbc7bbcfebdebf341191",
+    "hash": "f7ac23f24589cf92e6b3fb99bcfc4a5d7e48e86e7e95c69871e7530432d7cdec",
     "installer": {
         "args": [
             "/verysilent",
