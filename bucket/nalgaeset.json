@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "http://moogi.new21.org/bin/Ngs1040Setup_x86.msi",
-            "hash": ""
+            "hash": "111"
         }
     },
     "notes": "Need interaction",
