@@ -4,7 +4,7 @@
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "BSD-3-Clause",
     "url": "https://github.com/2dust/v2rayN/releases/download/5.37/v2rayN-Core.zip",
-    "hash": "ddebe178df82239fbdbe62c25ebec7f8e67fb7ee42ab91ab032ee58cfc3611f9",
+    "hash": "b3d545c5ed3c30868d8da3af16ba8ffd16b67e38ce261ab08ffe018e7043faa9",
     "extract_dir": "v2rayN-Core",
     "bin": "v2rayN.exe",
     "shortcuts": [
