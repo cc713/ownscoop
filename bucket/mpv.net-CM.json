@@ -22,6 +22,7 @@
             "mpvnet"
         ]
     ],
+    "persist": "portable_config",
     "checkver": {
         "github": "https://github.com/hooke007/mpv.net_CM",
         "regex": "/releases/download/(?<tag>\\w+)/mpvnet-CM-(?<build>\\d{8})",
