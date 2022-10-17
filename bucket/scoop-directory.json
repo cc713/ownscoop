@@ -1,5 +1,5 @@
 {
-    "version": "2022-10-16-12-29-56",
+    "version": "2022-10-17-01-16-25",
     "description": "Scoop apps and buckets database crawled from https://rasa.github.io/scoop-directory/by-score .",
     "homepage": "https://github.com/zhoujin7/crawl-scoop-directory",
     "license": "MIT",
