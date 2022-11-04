@@ -3,19 +3,19 @@
     "description": "You can decrypt whole RPG-Maker MV Directories with this Program, it also has a GUI.",
     "homepage": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter",
     "license": "MIT",
-    "url": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter/releases/download/v.0.4.1-alpha/RPG_Maker_MV_Decrypter_jar_0.4.1.zip",
-    "hash": "3a8c01f9d8513889b0b1ba865e70d9f31f632766e97069aeb2361ec08558e9b6",
-    "shortcuts":[
+    "url": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter/releases/download/v.0.4.1-alpha/RPG.Maker.MV.Decrypter_0.4.1.jar#/RPG.Maker.MV.Decrypter.jar",
+    "hash": "df9b115b0271be34330283ef46e552448ce79b49be8b9e065dc8aa2dc848f442",
+    "shortcuts": [
         [
-            "start.bat",
+            "RPG.Maker.MV.Decrypter.jar",
             "RPG Maker MV Decrypter"
         ]
     ],
     "checkver": {
-        "url": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter/releases",
-        "regex": "releases/download/v\\.(?<version>.+?)/RPG_Maker_MV_Decrypter_jar_(?<head>[\\d.]+)\\.zip"
+        "url": "https://api.github.com/repos/Petschko/Java-RPG-Maker-MV-Decrypter/releases",
+        "regex": "download/v\\.(?<version>.+?)/RPG.Maker.MV.Decrypter_(?<a>[\\d.]+?)\\.jar"
     },
     "autoupdate": {
-        "url": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter/releases/download/v.$matchVersion/RPG_Maker_MV_Decrypter_jar_$matchHead.zip"
+        "url": "https://github.com/Petschko/Java-RPG-Maker-MV-Decrypter/releases/download/v.$version/RPG.Maker.MV.Decrypter_$matchA.jar#/RPG.Maker.MV.Decrypter.jar"
     }
 }

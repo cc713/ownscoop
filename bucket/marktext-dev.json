@@ -26,8 +26,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/marktext/marktext/releases",
-        "regex": "v(.+?)/marktext-x64-win"
+        "url": "https://api.github.com/repos/marktext/marktext/releases",
+        "regex": "download/v([\\w-_.]+?)/marktext-x64-win\\.zip"
     },
     "autoupdate": {
         "architecture": {
