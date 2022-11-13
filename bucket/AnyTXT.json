@@ -1,10 +1,10 @@
 {
-    "version": "1.3.1002",
+    "version": "1.3.1006",
     "description": "A local document search application",
     "homepage": "https://anytxt.net",
     "license": "freeware",
-    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.3.1002.Win32_Win64.exe",
-    "hash": "585f52f6f19bf831f7ec9e1d106f8375ac05a33caf4585805c7f4219a1364152",
+    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.3.1006.Win32_Win64.exe",
+    "hash": "ef47c5219047f26f0858147c969933d10a0e959d4dc262731e659fc4c3dc16ae",
     "installer": {
         "args": [
             "/verysilent",
