@@ -1,0 +1,32 @@
+{
+    "version": "7.2.0-rc2",
+    "description": "A generic and open source machine emulator and virtualizer.",
+    "homepage": "https://qemu.weilnetz.de/",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-20221123.exe#/setup.exe",
+            "hash": "a113379a867b00c9d33d799697171899940cbac41fb225632ec0e1fd19efb934"
+        },
+        "32bit": {
+            "url": "https://qemu.weilnetz.de/w32/qemu-w32-setup-20221123.exe#/setup.exe",
+            "hash": "af08fa3160777529362346632124216223c53c9635e249454ca09c39f3fb5b75"
+        }
+    },
+    "notes": "Need interaction.",
+    "pre_install": "Start-Process \"$dir\\setup.exe\"",
+    "checkver": "<strong>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})</strong>: New QEMU installers \\((?<version>[\\d.a-z\\-]+)\\)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-$matchYear$matchMonth$matchDay.exe#/setup.exe"
+            },
+            "32bit": {
+                "url": "https://qemu.weilnetz.de/w32/qemu-w32-setup-$matchYear$matchMonth$matchDay.exe#/setup.exe"
+            }
+        },
+        "hash": {
+            "url": "$urlNoExt.sha512"
+        }
+    }
+}
