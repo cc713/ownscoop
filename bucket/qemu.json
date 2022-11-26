@@ -14,6 +14,7 @@
         }
     },
     "notes": "Need interaction.",
+    "env_add_path": ".",
     "pre_install": "Start-Process \"$dir\\setup.exe\"",
     "checkver": "<strong>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})</strong>: New QEMU installers \\((?<version>[\\d.a-z\\-]+)\\)",
     "autoupdate": {
