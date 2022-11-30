@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/crskycode/GARbro/releases/download/GARbro-Mod-1.0.0.7/GARbro-Mod-1.0.0.7.zip",
     "hash": "2d6730671d36ff027b542e0e6f46f3e21254b8cd4d04738550b6f927c356169b",
-    "extract_dir": "Release",
+    "extract_dir": "Release-1.0.0.7",
     "bin": [
         [
             "GARbro.Console.exe",
@@ -23,6 +23,7 @@
         "regex": "tag/GARbro-Mod-(.+?)\""
     },
     "autoupdate": {
-        "url": "https://github.com/crskycode/GARbro/releases/download/GARbro-Mod-$version/GARbro-Mod-$version.zip"
+        "url": "https://github.com/crskycode/GARbro/releases/download/GARbro-Mod-$version/GARbro-Mod-$version.zip",
+        "extract_dir": "Release-$version"
     }
 }
