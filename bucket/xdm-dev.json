@@ -1,10 +1,10 @@
 {
-    "version": "8.0.12-beta",
+    "version": "8.0.14-beta",
     "description": "A new version of XDM - a powerfull download accelerator and video downloader",
     "homepage": "https://github.com/subhra74/xdm",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/subhra74/xdm-experimental-binaries/releases/download/8.0.12-beta/xdmsetup-8.0.12-x86.msi",
-    "hash": "140b47b73bac2e832040d9336e1da6d32e84d2a50025ca44143c04f46977d216",
+    "url": "https://github.com/subhra74/xdm-experimental-binaries/releases/download/8.0.14-beta/xdmsetup-8.0.14-x86.msi",
+    "hash": "4e374dfbafe92d9b526757753dc302f192151e617dc2cbeaddffa45985b0dff1",
     "extract_dir": "XDM",
     "bin": "xdm-app.exe",
     "shortcuts": [
