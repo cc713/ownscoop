@@ -1,0 +1,77 @@
+{
+    "version": "7.4.3.2",
+    "description": "Powerful and free office suite, a successor to OpenOffice(.org).",
+    "homepage": "https://libreoffice.org/",
+    "license": "MPL-2.0",
+    "suggest": {
+        "Visual C++ Redistributable 2015-2022": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/x86_64/LibreOffice_7.4.3.2_Win_x64.msi#/dl.msi",
+            "hash": "f4cf0fe2ff0b9716d3622202c4dcbd7aedabce03e135a159d747f9bbeb92da01"
+        },
+        "32bit": {
+            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/x86/LibreOffice_7.4.3.2_Win_x86.msi#/dl.msi",
+            "hash": "07415d8740079623f5d21eddcdf10212935ddd43d52e0f54b06d52cc43c44bcd"
+        },
+        "arm64": {
+            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/LibreOffice_7.4.3.2_Win_aarch64.msi#/dl.msi",
+            "hash": "a2c3dad2a17b8314ccc03771d7d3f85e53aea55ab16dd8a21f181046642d5c3f"
+        }
+    },
+    "pre_install": [
+        "Move-Item \"$dir\\Fonts\" \"$dir\\LibreOffice\\share\" -Force",
+        "Remove-Item \"$dir\\System*\" -Recurse -Force"
+    ],
+    "shortcuts": [
+        [
+            "LibreOffice\\program\\soffice.exe",
+            "LibreOffice\\LibreOffice"
+        ],
+        [
+            "LibreOffice\\program\\sbase.exe",
+            "LibreOffice\\LibreOffice Base"
+        ],
+        [
+            "LibreOffice\\program\\scalc.exe",
+            "LibreOffice\\LibreOffice Calc"
+        ],
+        [
+            "LibreOffice\\program\\sdraw.exe",
+            "LibreOffice\\LibreOffice Draw"
+        ],
+        [
+            "LibreOffice\\program\\simpress.exe",
+            "LibreOffice\\LibreOffice Impress"
+        ],
+        [
+            "LibreOffice\\program\\smath.exe",
+            "LibreOffice\\LibreOffice Math"
+        ],
+        [
+            "LibreOffice\\program\\swriter.exe",
+            "LibreOffice\\LibreOffice Writer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/x86_64/",
+        "regex": "LibreOffice_([\\d.]+)_Win_x64.msi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/x86_64/LibreOffice_$version_Win_x64.msi#/dl.msi"
+            },
+            "32bit": {
+                "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/x86/LibreOffice_$version_Win_x86.msi#/dl.msi"
+            },
+            "arm64": {
+                "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/LibreOffice_$version_Win_aarch64.msi#/dl.msi"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
