@@ -1,10 +1,10 @@
 {
-    "version": "22.11.24-alpha.221205.45d740a5",
+    "version": "22.11.24-alpha.221208.16d76f2c",
     "description": "A feature-rich dictionary lookup program",
     "homepage": "https://github.com/xiaoyifang/goldendict",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.11.24-alpha.221205.45d740a5/6.3.2-GoldenDict.exe_windows-2019_20221205.zip",
-    "hash": "f8d51cbe399d62571e022e896031f7f55109ef4e3c63c8c2b075ae6f510e824d",
+    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.11.24-alpha.221208.16d76f2c/6.3.2-GoldenDict.exe_windows-2019_20221208.zip",
+    "hash": "629e2ba63519d642fd3183fcf1c8cf06ebb0fe1a3a7947c7f3549eda857b9a8d",
     "pre_install": [
         "Move-Item \"$dir\\GoldenDict*\\*\" \"$dir\"",
         "Remove-Item \"$dir\\GoldenDict-Windows*\""
