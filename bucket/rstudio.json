@@ -10,7 +10,7 @@
             "url": "https://download1.rstudio.org/electron/windows/RStudio-2022.12.0-353.exe#/dl.7z",
             "hash": "fd8ea4b45fd7382e628f01d7b55dcee3765a51323aed459789be7612798ccbe4",
             "post_install": [
-                "Remove-Item \"$dir\\`$*\" -Recurse",
+                "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
                 "if (!(Test-Path \"$env:Appdata\\RStudio\")) {",
                 "    New-Item \"$env:Appdata\\RStudio\" -ItemType Directory -Force | Out-Null",
                 "    @(",
@@ -21,10 +21,10 @@
             ]
         }
     },
-    "bin": "bin\\rstudio.exe",
+    "bin": "rstudio.exe",
     "shortcuts": [
         [
-            "bin\\rstudio.exe",
+            "rstudio.exe",
             "RStudio"
         ]
     ],
