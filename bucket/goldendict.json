@@ -1,10 +1,10 @@
 {
-    "version": "22.12.22-WinterSolstice.221220.311d08c6",
+    "version": "22.12.24-alpha.221225.086e8d99",
     "description": "A feature-rich dictionary lookup program",
     "homepage": "https://github.com/xiaoyifang/goldendict",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.12.22-WinterSolstice.221220.311d08c6/6.3.2-GoldenDict.exe_windows-2019_20221220.zip",
-    "hash": "e6474087e21ec0c6f752c7fde070cdc04fa82f441fdc5d9fb748d5e317604cf6",
+    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v22.12.24-alpha.221225.086e8d99/6.3.2-GoldenDict.exe_windows-2019_20221225.zip",
+    "hash": "7afa7e2c511c02f048b12b1011bd0510b059c2e3a2f1ac53172770a74bac851c",
     "pre_install": [
         "Move-Item \"$dir\\GoldenDict*\\*\" \"$dir\"",
         "Remove-Item \"$dir\\GoldenDict-Windows*\""
