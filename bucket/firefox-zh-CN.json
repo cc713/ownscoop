@@ -1,20 +1,20 @@
 {
-    "version": "108.0.1",
+    "version": "108.0.2",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/108.0.1/win64/zh-CN/Firefox%20Setup%20108.0.1.exe#/dl.7z",
-            "hash": "sha512:e48b1eb167a050d86bb13cfbe4d2a23601202c2c5a0954aa8173949bdcbd56978c45cfbb427667fb9d11c06343c2a90e268ae597d85af9e2e55a062713e97445"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/108.0.2/win64/zh-CN/Firefox%20Setup%20108.0.2.exe#/dl.7z",
+            "hash": "sha512:09b9e41d154b64522fa026db0e6b5192278ff9dcee2223c5d936e9adf2b61fb56f41b3b31fb4a6d2b99ef3b6aff0055309b7df83064e301a0e23b530d0018704"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/108.0.1/win32/zh-CN/Firefox%20Setup%20108.0.1.exe#/dl.7z",
-            "hash": "sha512:6436e8715e70c764d4ef11ffcc8ab3c627cbfd15e6a2dee4f42c8bcde0108b6605646dac6edf98021523194444a0f008a43ae6eeeba4cf1d44ff8945e794536d"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/108.0.2/win32/zh-CN/Firefox%20Setup%20108.0.2.exe#/dl.7z",
+            "hash": "sha512:334a41fa155122a7cf5a05730fa442942b42efb63b5bb25a4ae0e86be002c5075625f5b645ea21fdc71a6f0ef1aa683f4fbb1f626dff0129fd558ed3fc2aa3c0"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/108.0.1/win64-aarch64/zh-CN/Firefox%20Setup%20108.0.1.exe#/dl.7z",
-            "hash": "sha512:6d6c13a5c0d8dcde710050c8644b5320302184ff56bf8731cf98b5420b4da55d572809ee3cf908a62cd0d7cc4c3525d16afc38f31cbb8c97925b213c7979f991"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/108.0.2/win64-aarch64/zh-CN/Firefox%20Setup%20108.0.2.exe#/dl.7z",
+            "hash": "sha512:782bc5f8d4e1954a7baf3d0009d5e9f02cf5eb1dfa4a6ee72470131b97d6190c07d5526c70be6fe9799d574340487713b99d582fb3429d210fc507b93d028480"
         }
     },
     "extract_dir": "core",
