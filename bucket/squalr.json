@@ -5,7 +5,6 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/Squalr/Squalr/releases/download/3.0.2/SqualrSetup.exe",
     "hash": "4e5a92735f3660c23c0f338cfbc130f746843a27817c2b03bc1743972d3ac3e8",
-    "bin": "Squalr.exe",
     "shortcuts": [
         [
             "SqualrSetup.exe",
