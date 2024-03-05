@@ -1,16 +1,16 @@
 {
-    "version": "115.8.0",
+    "version": "115.8.1",
     "description": "A free email application that's easy to set up and customize.",
     "homepage": "https://www.thunderbird.net",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/thunderbird/releases/115.8.0/win64/zh-CN/Thunderbird%20Setup%20115.8.0.exe#/dl.7z",
-            "hash": "sha512:1ee7d8b0af1391f2fb3db76aa54b81d7276fb7dc91ef5e9a3597c455bd1ce868114ac4824b0b1a01328a1ab386e436e3680a60899d075e302b10da452a12b3ec"
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/115.8.1/win64/zh-CN/Thunderbird%20Setup%20115.8.1.exe#/dl.7z",
+            "hash": "sha512:a3285789749f5608496ad4f8d077d22c681022fb960b41d65e6975820677bb4eb05d7c10509f41a976a0c362af61fa96ca535d684c508d5ab4085149d0963c68"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/thunderbird/releases/115.8.0/win32/zh-CN/Thunderbird%20Setup%20115.8.0.exe#/dl.7z",
-            "hash": "sha512:f519f08b7fd9a3ae95e98680edff8529575190d18966e370d79d4318178f672e4d92fa6c482bd58d34a17ab801724bd0a5a95a5ba05bc1d018c21be6611f671e"
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/115.8.1/win32/zh-CN/Thunderbird%20Setup%20115.8.1.exe#/dl.7z",
+            "hash": "sha512:d4d2efcffa933c5227c154992d79f99e24ccf5ee20b2a75f14fcd905ce61e016fb0f5a1aaff6f36e15e2fc8fef06d6c50e4d9a06b61dd0645f59a20a74689180"
         }
     },
     "extract_dir": "core",
