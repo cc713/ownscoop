@@ -1,10 +1,10 @@
 {
-    "version": "2024-03-08_16-44",
+    "version": "2024-03-19_00-55",
     "description": "x64/x32 debugger",
     "homepage": "https://x64dbg.com/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/x64dbg/x64dbg/releases/download/snapshot/snapshot_2024-03-08_16-44.zip",
-    "hash": "df70e2d7a68a9f7874d9c411ed40288334872239dfb66dade0ef0b903022c92f",
+    "url": "https://github.com/x64dbg/x64dbg/releases/download/snapshot/snapshot_2024-03-19_00-55.zip",
+    "hash": "a6a4bb55cc4c620050108472c2715fce16cd58e7ecf14bc35c891efe41c62b83",
     "pre_install": [
         "'release\\x96dbg.ini', 'release\\x32\\x32dbg.ini', 'release\\x64\\x64dbg.ini' | ForEach-Object {",
         "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item -ItemType File \"$dir\\$_\" | Out-Null }",
