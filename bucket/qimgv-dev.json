@@ -23,12 +23,13 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/easymodo/qimgv/releases",
-        "regex": "download/latest-dev/qimgv-x64_v(.+?)\\.zip"
+        "regex": "download/latest-dev/qimgv-x64_v(1.0.3-alpha-[0-9]{3}.+?)\\.7z",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/easymodo/qimgv/releases/download/latest-dev/qimgv-x64_v$version.zip"
+                "url": "https://github.com/easymodo/qimgv/releases/download/latest-dev/qimgv-x64_v$version.7z"
             }
         },
         "extract_dir": "qimgv-x64_v$version"
