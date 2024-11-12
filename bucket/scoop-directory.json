@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/zhoujin7/crawl-scoop-directory/commits/master/scoop_directory.db",
-        "regex": "datetime=\"([\\d-]+)T([\\d]+):([\\d]+):([\\d]+)Z\"",
+        "regex": "authoredDate=\"([\\d-]+)T([\\d]+):([\\d]+):([\\d]+)Z\"",
         "replace": "${1}-${2}-${3}-${4}"
     },
     "autoupdate": {
