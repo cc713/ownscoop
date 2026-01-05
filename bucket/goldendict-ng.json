@@ -1,10 +1,10 @@
 {
-    "version": "26.1.0-Release.13f0f844",
+    "version": "26.1.0-alpha.f4e1e320",
     "description": "A feature-rich dictionary lookup program",
     "homepage": "https://github.com/xiaoyifang/goldendict",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v26.1.0-Release.13f0f844/GoldenDict-ng-26.1.0-Qt6.7.2-Windows-installer.7z",
-    "hash": "812568b1dbb45a574fb93e0f3b9719dd606f3df834b6ffedd0b64de56603a081",
+    "url": "https://github.com/xiaoyifang/goldendict/releases/download/v26.1.0-alpha.f4e1e320/GoldenDict-ng-26.2.0-Qt6.7.2-Windows-installer.7z",
+    "hash": "70f1ddf38e2101fb19f126040445e68ee17485f883b0c749a8e950c0998986a8",
     "pre_install": [
         "Move-Item \"$dir\\GoldenDict*\\*\" \"$dir\"",
         "Remove-Item \"$dir\\GoldenDict-ng-*\""
