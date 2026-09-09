@@ -1,5 +1,5 @@
 {
-    "version": "1.6.3",
+    "version": "2.1.0",
     "description": "A CLI-based Bilibili downloader. A continuation of bbdown.",
     "homepage": "https://github.com/LOVAHE/BBDownT",
     "license": "MIT",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nilaoda/BBDown/releases/download/1.6.3/BBDown_1.6.3_20240814_win-x64.zip",
-            "hash": "40f1e2af0d4e74df765c6f93d2e931f9bea201d5168d0bc62dc35a54b7e0ec02"
+            "url": "https://github.com/LOVAHE/BBDownT/releases/download/v2.1.0/BBDownT_win-x64.exe",
+            "hash": "c04be3f1ebde0b54072dc60ae8b22706b8f2a480622c3cc8abb5acb9102128da"
         },
         "arm64": {
-            "url": "https://github.com/nilaoda/BBDown/releases/download/1.6.3/BBDown_1.6.3_20240814_win-arm64.zip",
-            "hash": "da8fc9cbf1031f4c4ca97af82d98bbfd1bbc55bd8ea49602da8d3d1613c190ff"
+            "url": "https://github.com/LOVAHE/BBDownT/releases/download/v2.1.0/BBDownT_win-arm64.exe",
+            "hash": "921271621edae883139b622f3b018ed4f36ca13752bc564823d752e1e287e657"
         }
     },
     "pre_install": [
@@ -34,5 +34,16 @@
         "BBDownT.data",
         "BBDownTApp.data",
         "BBDownTTV.data"
-    ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/LOVAHE/BBDownT/releases/download/v$version/BBDownT_win-x64.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/LOVAHE/BBDownT/releases/download/v$version/BBDownT_win-arm64.exe"
+            }
+        }
+    }
 }
