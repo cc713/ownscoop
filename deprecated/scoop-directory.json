@@ -5,6 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/zhoujin7/crawl-scoop-directory/raw/master/scoop_directory.db",
     "hash": "5628cb1d2d173287a80238bf14ef8920eb3ff05918e3a9210780038297a8bd46",
+    "note": "Deprecated, use https://scoop.sh instead."
     "shortcuts": [
         [
             "scoop_directory.db",
