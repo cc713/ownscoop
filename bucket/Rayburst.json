@@ -1,16 +1,16 @@
 {
-    "version": "4.0.0-beta.5",
+    "version": "4.0.0-beta.6",
     "description": "A full-featured download manager — rebuilt from the ground up.",
     "homepage": "https://rayburst.pages.dev",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v4.0.0-beta.5/Rayburst_4.0.0-beta.5_x64-setup.exe#/dl.7z",
-            "hash": "529085576932c0da02f02ae42737da642250bac1df3470bef73247ba75d9804c"
+            "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v4.0.0-beta.6/Rayburst_4.0.0-beta.6_x64-setup.exe#/dl.7z",
+            "hash": "3159df4325deb06ddecc9e9d4bd031b816222c428c5348444d448e6087bf2f0f"
         },
         "arm64": {
-            "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v4.0.0-beta.5/Rayburst_4.0.0-beta.5_arm64-setup.exe#/dl.7z",
-            "hash": "43d4bbbbaf67ae59da6b734c03cbe80f6211319f8ad0e8ccbe5ac48ee1587b8d"
+            "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v4.0.0-beta.6/Rayburst_4.0.0-beta.6_arm64-setup.exe#/dl.7z",
+            "hash": "afeb1d04b2ff601e0585af5e0e187ce7c9ad04feeb3d5b149cc84bfa292a3766"
         }
     },
     "pre_install": "Remove-Item -Path \"$dir\\`$*\" -Force -Recurse",
