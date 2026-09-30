@@ -22,7 +22,8 @@
         ]
     ],
     "checkver": {
-        "github": "http://github.com/acely/Arctime-Pro"
+        "url": "https://api.github.com/repos/acely/Arctime-Pro/releases",
+        "regex": "releases/download/([^/]+)/.+?WIN32"
     },
     "autoupdate": {
         "architecture": {
