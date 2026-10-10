@@ -12,8 +12,8 @@
             "LocaleEmulatorPlus Installer"
         ],
         [
-            "LEPUpdater.exe",
-            "LocaleEmulatorPlus Updater"
+            "LEPGUI.exe",
+            "LocaleEmulatorPlus GUI"
         ]
     ],
     "checkver": "github",
