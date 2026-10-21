@@ -1,7 +1,7 @@
 {
     "version": "158.0.1",
     "description": "Popular open source web browser.",
-    "homepage": "https://www.mozilla.org/firefox/",
+    "homepage": "https://www.firefox.com/",
     "license": "MPL-2.0",
     "notes": [
         "To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:",
@@ -12,15 +12,15 @@
     "architecture": {
         "64bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/158.0.1/win64/zh-CN/Firefox%20Setup%20158.0.1.exe#/dl.7z",
-            "hash": "sha512:911cb95091c05aa41b2a1ffcb2b8f11b431547493ce97db759d2b61a4198300333387cd3c6ec10a710cd41334d3e2c5953e2b736f32a055c7c9f5cc238a792f5"
+            "hash": "sha512:4cd87e51e033406ea5bdd4fbb969843b41365570c4e59e95610ed5074326221535279c616fba21ca5c89b0503843aa746f8a3a65a593221e77bef6a18ee38ac8"
         },
         "32bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/158.0.1/win32/zh-CN/Firefox%20Setup%20158.0.1.exe#/dl.7z",
-            "hash": "sha512:57cf35c990fe1fccbcd60d726425923131974c765bdcae19c8b72ce27769b775f25ac07823096a231917b8fe27e72735af32d1a91d9fa122cec9a6e0f2a10706"
+            "hash": "sha512:34ad9f80be0546654f1d471fe3f7e59c40df51e0baf50abd4b83a7b53469194d3537f26e58b7f4ef49e242d7214446e3f37ed4b94f63b75310f290f2903afcc0"
         },
         "arm64": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/158.0.1/win64-aarch64/zh-CN/Firefox%20Setup%20158.0.1.exe#/dl.7z",
-            "hash": "sha512:42db37243666504c841ceb25443e253c741cede482bf8712bf485829d01c43b16260667827e9529a05768cd3f9b2c4c7f9978b49dee3432095cf973ad0765e18"
+            "hash": "sha512:f8d5e848ab36facd8c131fcf4c257a7563d86e544cbe0f718d99a69e985a74579c69209f438372b4c35e363019912c4a4c7717133c696ceddacdb74bf02c6de7"
         }
     },
     "extract_dir": "core",
