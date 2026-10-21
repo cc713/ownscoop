@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/158.0.1/win64/zh-CN/Firefox%20Setup%20158.0.1.exe#/dl.7z",
-            "hash": "sha512:4cd87e51e033406ea5bdd4fbb969843b41365570c4e59e95610ed5074326221535279c616fba21ca5c89b0503843aa746f8a3a65a593221e77bef6a18ee38ac8"
+            "hash": "sha512:911cb95091c05aa41b2a1ffcb2b8f11b431547493ce97db759d2b61a4198300333387cd3c6ec10a710cd41334d3e2c5953e2b736f32a055c7c9f5cc238a792f5"
         },
         "32bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/158.0.1/win32/zh-CN/Firefox%20Setup%20158.0.1.exe#/dl.7z",
