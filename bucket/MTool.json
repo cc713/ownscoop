@@ -1,5 +1,5 @@
 {
-    "version": "A7DCFAE1",
+    "version": "3EFAF6D9",
     "description": "Game translation and modification tool for players",
     "homepage": "https://mtool.app/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.mtool.app/downloadRelease/checkCRC/69a0d020bf9653d46a997ea8f18a7a2a/v/1/lang/en/file/MTool.zip",
-            "hash": "626341f671cdafd75f421bcb146a77f0779793986f0d478b144b495094c72de8",
+            "url": "https://dl.mtool.app/downloadRelease/checkCRC/cba449b448282791eb60fdfe6b79209a/v/1/lang/en/file/MTool.zip",
+            "hash": "5ccac2f4eb8e908297b0b5428602f999ed6243d175810f0044aa9e3cdf6d886e",
             "extract_dir": "MTool"
         }
     },
