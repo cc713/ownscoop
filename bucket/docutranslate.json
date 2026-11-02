@@ -5,7 +5,7 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xunbu/docutranslate/releases/download/v1.7.10/DocuTranslate-1.7.10-win.exe",
+            "url": "https://github.com/xunbu/docutranslate/releases/download/v1.7.10/DocuTranslate-1.7.10-win.exe#/DocuTranslate.exe",
             "hash": "f462af3b95c25f1af5f3dd5573eb1aaad24ed9112fe0217bbd3886d88e237977"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xunbu/docutranslate/releases/download/v$version/DocuTranslate-$version-win.exe"
+                "url": "https://github.com/xunbu/docutranslate/releases/download/v$version/DocuTranslate-$version-win.exe#/DocuTranslate.exe"
             }
         }
     }
