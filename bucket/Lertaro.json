@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.13.0/Lertaro-Setup.exe",
+            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.13.0/Lertaro-Portable.zip",
             "hash": "378ae6471fba7fa79b3fb8c76d5f23ea5cc9068e12009f43b8fcbfe9a453ad39"
         },
         "arm64": {
-            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.13.0/Lertaro-Setup-arm64.exe",
+            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.13.0/Lertaro-Portable-arm64.zip",
             "hash": "a9ef245d97a31f3ab0e7da5bc8834e5c46e13c22093e6a198ddf2300c06f51e7"
         }
     },
@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Lertaro/Lertaro/releases/download/v$version/Lertaro-Setup.exe"
+                "url": "https://github.com/Lertaro/Lertaro/releases/download/v$version/Lertaro-Portable.zip"
             },
             "arm64": {
-                "url": "https://github.com/Lertaro/Lertaro/releases/download/v$version/Lertaro-Setup-arm64.exe"
+                "url": "https://github.com/Lertaro/Lertaro/releases/download/v$version/Lertaro-Portable-arm64.zip"
             }
         }
     }
